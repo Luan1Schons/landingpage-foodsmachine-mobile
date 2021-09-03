@@ -364,175 +364,108 @@ body::-webkit-scrollbar-thumb {
   color: #fff;
 }
 
-@media (max-width: 1324px) {
-  .register .modal-dialog .modal-content .sell-showcase {
-    padding: 0px 10vw;
-  }
-}
-
-@media (max-width: 900px) {
-  .register .modal-dialog .modal-content .sell-showcase {
-    padding: 0px;
-  }
-}
-
-@media (max-width: 768px) {
-  .register .modal-dialog .modal-content .sell-showcase {
-    padding: 0px;
-  }
+.register .modal-dialog .modal-content .sell-showcase {
+  margin-top: 60px;
 }
 
 .register .modal-dialog .modal-content .sell-showcase .card {
-  border-radius: 45px;
-  height: 100%;
+  border-radius: 35px;
 }
 
-.register .modal-dialog .modal-content .sell-showcase .green {
-  background-color: #0bd877;
-  border: solid 3px #0bd877;
-  padding: 15px 35px;
-  text-align: center;
-}
-
-.register .modal-dialog .modal-content .sell-showcase .green h1 {
-  font-size: min(47px, 17vw);
+.register .modal-dialog .modal-content .sell-showcase h4 {
+  font-size: min(17px, 4vw);
   font-family: "TheFontBold", Arial, sans-serif;
+  color: #c9c9c9;
+  font-weight: bold;
+  font-size: min(21px, 4.2vw);
 }
 
-@media (max-width: 1324px) {
-  .register .modal-dialog .modal-content .sell-showcase .green h1 {
-    font-size: min(30px, 15vw);
-  }
-}
-
-@media (max-width: 768px) {
-  .register .modal-dialog .modal-content .sell-showcase .green h1 {
-    font-size: min(30px, 10vw);
-  }
-}
-
-.register .modal-dialog .modal-content .sell-showcase .green h2 {
-  font-size: min(67px, 14vw);
-  font-family: "TheFontBold", Arial, sans-serif;
-}
-
-.register .modal-dialog .modal-content .sell-showcase .green p {
-  font-family: "FuturaBk", Arial, sans-serif;
-  font-size: min(40px, 10vw);
-}
-
-.register .modal-dialog .modal-content .sell-showcase .black {
+.register .modal-dialog .modal-content .sell-showcase .container-black .black {
   background: #520d5e;
   background: linear-gradient(31deg, #520d5e 15%, #482f71 32%, #20bbbd 100%);
   border: solid 5px #2b98aa;
-  -webkit-box-shadow: 0px 1px 8px -4px #000000;
-  box-shadow: 0px 1px 8px -4px #000000;
-  padding: 25px 55px;
+  -webkit-box-shadow: inset -3px 4px 12px -5px #000000;
+  box-shadow: inset -3px 4px 12px -5px #000000;
+  padding: 25px 45px 0px 45px;
 }
 
-@media (max-width: 768px) {
-  .register .modal-dialog .modal-content .sell-showcase .black .slashes {
-    display: none;
-  }
+.register .modal-dialog .modal-content .sell-showcase .container-black .black .slashes {
+  font-size: min(30px, 5vw);
+  opacity: 0.5;
 }
 
-@media (max-width: 1324px) {
-  .register .modal-dialog .modal-content .sell-showcase .black .slashes {
-    display: none;
-  }
-}
-
-.register .modal-dialog .modal-content .sell-showcase .black h4 {
-  font-size: min(22px, 4vw);
+.register .modal-dialog .modal-content .sell-showcase .container-black .black h4 {
+  font-size: min(17px, 3.8vw);
   font-family: "TheFontBold", Arial, sans-serif;
   color: #fff;
 }
 
-.register .modal-dialog .modal-content .sell-showcase .black .discount {
+.register .modal-dialog .modal-content .sell-showcase .container-black .black .discount {
   text-align: left;
   font-family: "TheFontBold", Arial, sans-serif;
   color: #fff;
 }
 
-.register .modal-dialog .modal-content .sell-showcase .black .discount h1 {
-  font-size: min(68px, 15vw);
+.register .modal-dialog .modal-content .sell-showcase .container-black .black .discount h1 {
+  font-size: min(44px, 11vw);
 }
 
-@media (max-width: 1324px) {
-  .register .modal-dialog .modal-content .sell-showcase .black .discount h1 {
-    font-size: min(40px, 7vw);
-  }
-}
-
-@media (max-width: 768px) {
-  .register .modal-dialog .modal-content .sell-showcase .black .discount h1 {
-    font-size: min(30px, 6vw);
-  }
-}
-
-.register .modal-dialog .modal-content .sell-showcase .black .discount span {
-  font-size: min(17px, 12vw);
-  position: absolute;
-  margin-top: 2.2rem;
-  font-size: 31px;
-  float: right;
-  margin-left: 10px;
+.register .modal-dialog .modal-content .sell-showcase .container-black .black .discount span {
+  font-size: min(12px, 4vw);
+  position: relative;
   color: #fff;
+  margin-left: 5px;
+  text-decoration: none !important;
+  display: inline-block;
 }
 
-.register .modal-dialog .modal-content .sell-showcase .black .discount b {
-  font-size: 25px;
+.register .modal-dialog .modal-content .sell-showcase .container-black .black .discount b {
+  font-size: min(12px, 3vw);
 }
 
-.register .modal-dialog .modal-content .sell-showcase .black .price {
+.register .modal-dialog .modal-content .sell-showcase .container-black .black .price {
   text-align: left;
   font-family: "TheFontBold", Arial, sans-serif;
   color: #fff;
 }
 
-.register .modal-dialog .modal-content .sell-showcase .black .price h1 {
+.register .modal-dialog .modal-content .sell-showcase .container-black .black .price h1 {
   color: #0ad875;
-  font-size: min(110px, 14vw);
+  font-size: min(83px, 14vw);
 }
 
-@media (max-width: 1324px) {
-  .register .modal-dialog .modal-content .sell-showcase .black .price h1 {
-    font-size: min(60px, 12vw);
-  }
-}
-
-@media (max-width: 768px) {
-  .register .modal-dialog .modal-content .sell-showcase .black .price h1 {
-    font-size: min(40px, 8vw);
-  }
-}
-
-.register .modal-dialog .modal-content .sell-showcase .black .price h2 {
-  font-size: min(80px, 15vw);
+.register .modal-dialog .modal-content .sell-showcase .container-black .black .price h2 {
+  font-size: min(20px, 3.9vw);
+  letter-spacing: 0.5rem;
   font-family: "FuturaBk", Arial, sans-serif;
 }
 
-@media (max-width: 1324px) {
-  .register .modal-dialog .modal-content .sell-showcase .black .price h2 {
-    text-align: center;
-    font-size: min(30px, 10vw);
-  }
-}
-
-@media (max-width: 768px) {
-  .register .modal-dialog .modal-content .sell-showcase .black .price h2 {
-    text-align: center;
-    font-size: min(30px, 10vw);
-  }
-}
-
-.register .modal-dialog .modal-content .sell-showcase .black .price span {
-  position: absolute;
-  margin-top: 4.5rem;
-  font-size: 31px;
-  float: right;
+.register .modal-dialog .modal-content .sell-showcase .container-black .black .price span {
+  position: relative;
+  font-size: min(12px, 4vw);
   color: #fff;
-  margin-left: 10px;
+}
+
+.register .modal-dialog .modal-content .sell-showcase .cian h2 {
+  color: #2a98aa;
+  font-size: min(30px, 8vw);
+  text-align: center;
+  font-family: "TheFontBold", Arial, sans-serif;
+}
+
+.register .modal-dialog .modal-content .sell-showcase .cian h1 {
+  color: #2a98aa;
+  font-size: min(42px,9.2vw);
+  text-align: center;
+  font-family: "TheFontBold", Arial, sans-serif;
+}
+
+.register .modal-dialog .modal-content .sell-showcase .cian span {
+  color: #2a98aa;
+  font-size: min(42px, 4.2vw);
+  text-align: center;
+  font-family: "FuturaBk", Arial, sans-serif;
+  letter-spacing: 0.2rem;
 }
 
 .register .modal-dialog .modal-content .payments-method {
