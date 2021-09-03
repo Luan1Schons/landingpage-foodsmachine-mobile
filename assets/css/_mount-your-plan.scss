@@ -497,21 +497,21 @@
         .cian {
             h2 {
                 color: #2a98aa;
-                font-size: 30px;
+                font-size: #{"min(30px, 6vw)"};
                 text-align: center;
                 font-family: "TheFontBold", Arial, sans-serif;
             }
 
             h1 {
                 color: #2a98aa;
-                font-size: 42px;
+                font-size: #{"min(42px, 7vw)"};
                 text-align: center;
                 font-family: "TheFontBold", Arial, sans-serif;
             }
 
             span {
                 color: #2a98aa;
-                font-size: 19px;
+                font-size: #{"min(42px, 4vw)"};
                 text-align: center;
                 font-family: "FuturaBk", Arial, sans-serif;
                 letter-spacing: 0.2rem;
@@ -519,7 +519,7 @@
         }
     }
     .advertising {
-        font-size: 17px;
+        font-size: #{"min(17px, 4vw)"};
         color: #989898;
         font-family: "FuturaBk", Arial, sans-serif;
         margin-bottom: 100px;
@@ -528,7 +528,7 @@
     .start-act-showcase {
         .btn {
             padding: 25px 10px;
-            font-size: 15px;
+            font-size: #{"min(15px, 3vw)"};
             font-family: "TheFontBold", Arial, sans-serif;
             font-weight: bold;
             width: 100%;

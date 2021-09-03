@@ -16,23 +16,23 @@
 
             h1 {
                 font-family: "FuturaBk", Arial, sans-serif;
-                font-size: 27px;
+                font-size: #{"min(27px, 6vw)"};
             }
     
             h2 {
                 font-family: "TheFontBold", Arial, sans-serif;
-                font-size: 23px;
+                font-size: #{"min(27px, 5.2vw)"};
             }
 
             h3 {
                 font-family: "FuturaBk", Arial, sans-serif;
-                font-size: 22px;
+                font-size: #{"min(25px, 4.5vw)"};
             }
         }
 
         .btn {
             font-family: "FuturaBk", Arial, sans-serif;
-            font-size: 17px !important;
+            font-size: #{"min(17px, 3.2vw)"};
             width: 100%;
 
             b{
