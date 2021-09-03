@@ -35,7 +35,7 @@
                 }
 
                 .container {
-                    padding: 0px 50px;
+                    padding: 0px;
                 }
 
                 .line {
@@ -87,28 +87,22 @@
                             padding: 10px;
                         }
                         .ticket {
-                            padding: 20px 0px;
-
                             .card {
-                                border-radius: 0px 25px 25px 0px;
-                                border: none;
-                                background-color: #eeecec;
+                                background-color: #eeecec00;
                                 -webkit-box-shadow: none;
                                 box-shadow: none;
-                                .card-body {
-                                    padding: 5px;
-                                }
+                                border: none;
                             }
 
                             h3 {
                                 font-family: "TheFontBold", Arial, sans-serif;
-                                font-size: 19px;
+                                font-size: 16px;
                                 color: #8a8a8a;
                             }
                         }
 
                         .card {
-                            border-radius: 25px;
+                            border-radius: 15px;
                             border: solid 3px #fff;
                             background-color: #fff;
                             webkit-box-shadow: -2px 5px 9px -4px #a79696;
@@ -119,11 +113,11 @@
                         }
 
                         img {
-                            width: 50px;
+                            width: 30px;
                         }
                         h3 {
                             font-family: "TheFontBold", Arial, sans-serif;
-                            font-size: 22px;
+                            font-size: 17px;
                         }
 
                         .extra-actions {
