@@ -966,7 +966,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .header-card .card p {
-  font-size: 19px;
+  font-size: min(19px, 4vw);
   font-family: arial,sans-serif;
 }
 
@@ -1049,6 +1049,13 @@ body::-webkit-scrollbar-thumb {
   background-image: url(/assets/imgs/svgs/step-1.svg);
   background-repeat: no-repeat;
   background-position: 90px 180px;
+  margin: auto;
+}
+
+@media only screen and (min-width: 920px) {
+  .steps {
+    width: 50%;
+  }
 }
 
 .steps .people-left {
@@ -1066,8 +1073,8 @@ body::-webkit-scrollbar-thumb {
 .steps .people-2 {
   width: 100px;
   display: block;
-  position: relative;
   left: 30px;
+  position: relative;
 }
 
 .steps .people-3 {
@@ -1376,21 +1383,21 @@ body::-webkit-scrollbar-thumb {
 
 .mount-your-plan .brands .ifood {
   position: absolute;
-  margin: 75px 580px 0px 0px;
+  margin: 40px 10px 0px 0px;
 }
 
 .mount-your-plan .brands .ifood img {
-  width: 90px;
+  width: 40px;
   height: 93px;
 }
 
 .mount-your-plan .brands .aiqfome {
   position: absolute;
-  margin: 0px 0px 0px 0px;
+  margin: 5px 340px 0px 0px;
 }
 
 .mount-your-plan .brands .aiqfome img {
-  width: 30px;
+  width: 40px;
   height: 100%;
   -webkit-transform: rotate(-14deg);
           transform: rotate(-14deg);
@@ -1400,11 +1407,11 @@ body::-webkit-scrollbar-thumb {
 
 .mount-your-plan .brands .deliverymuch {
   position: absolute;
-  margin: 0px 0px 0px 0px;
+  margin: 5px -340px 0px 0px;
 }
 
 .mount-your-plan .brands .deliverymuch img {
-  width: 30px;
+  width: 35px;
   height: 100%;
   -webkit-transform: rotate(2deg);
           transform: rotate(2deg);
@@ -1414,11 +1421,11 @@ body::-webkit-scrollbar-thumb {
 
 .mount-your-plan .brands .ubereats {
   position: absolute;
-  margin: 0px 0px 0px 0px;
+  margin: 20px -190px 0px 0px;
 }
 
 .mount-your-plan .brands .ubereats img {
-  width: 30px;
+  width: 45px;
   height: 100%;
   -webkit-transform: rotate(8deg);
           transform: rotate(8deg);
@@ -1428,14 +1435,14 @@ body::-webkit-scrollbar-thumb {
 
 .mount-your-plan .brands .rappi {
   position: absolute;
-  margin: 0px 0px 0px 0px;
+  margin: 10px 180px 0px 0px;
 }
 
 .mount-your-plan .brands .rappi img {
-  width: 30px;
+  width: 45px;
   height: 100%;
-  -webkit-transform: rotate(6deg);
-          transform: rotate(6deg);
+  -webkit-transform: rotate(12deg);
+          transform: rotate(12deg);
   -webkit-transform-origin: left top 0;
           transform-origin: left top 0;
 }

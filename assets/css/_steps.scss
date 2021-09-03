@@ -3,6 +3,11 @@
     background-image: url(/assets/imgs/svgs/step-1.svg);
     background-repeat: no-repeat;
     background-position: 90px 180px;
+    margin: auto;
+    @media only screen and (min-width: 920px) {
+        width: 50%
+    }
+
     .people-left {
         width: 120px;
         display: block;
@@ -20,8 +25,8 @@
     .people-2 {
         width: 100px;
         display: block;
-        position: relative;
         left: 30px;
+        position: relative;
     }
 
     .people-3 {

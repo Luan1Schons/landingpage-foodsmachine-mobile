@@ -22,7 +22,7 @@
         box-shadow: 0px 1px 9px -4px #000000;
 
         p {
-            font-size: 19px;
+            font-size: #{"min(19px, 4vw)"};
             font-family: arial,sans-serif;
             b {
                 font-family: 'TheFontBold', Arial, sans-serif;
