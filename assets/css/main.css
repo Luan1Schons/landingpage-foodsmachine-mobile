@@ -307,7 +307,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .register .modal-dialog .modal-content .modal-body .modules-selected .add-modules .extra-actions {
-  margin-top: 150px;
+  margin-top: 50px;
 }
 
 .register .modal-dialog .modal-content .modal-body .modules-selected .add-modules .extra-actions h3 {
@@ -386,7 +386,6 @@ body::-webkit-scrollbar-thumb {
   border: solid 5px #2b98aa;
   -webkit-box-shadow: inset -3px 4px 12px -5px #000000;
   box-shadow: inset -3px 4px 12px -5px #000000;
-  padding: 25px 45px 0px 45px;
 }
 
 .register .modal-dialog .modal-content .sell-showcase .container-black .black .slashes {
@@ -407,7 +406,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .register .modal-dialog .modal-content .sell-showcase .container-black .black .discount h1 {
-  font-size: min(44px, 11vw);
+  font-size: min(44px, 12vw);
 }
 
 .register .modal-dialog .modal-content .sell-showcase .container-black .black .discount span {
