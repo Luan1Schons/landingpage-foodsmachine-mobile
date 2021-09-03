@@ -46,9 +46,10 @@
             font-family: 'TheFontBold', Arial, sans-serif;
             text-align: center;
 
-            @media (max-width: 320px) {
-                font-size: 14px !important;
+            @media only screen and (max-width: 360px) {
+                font-size: 14px;
             }
+            
         }
     }
     .step-1 {
@@ -76,6 +77,11 @@
 
     .step-desc-3 {
         font-size: 19px !important;
+
+        @media only screen and (max-width: 360px) {
+            font-size: 14px !important;
+        }
+
     }
 
     .desc-1 {
@@ -84,25 +90,15 @@
         width: 180px;
         float: right;
 
-        @media (max-width: 410px) {
-            width: 180px;
-        }
-
-        @media (max-width: 400px) {
+        @media only screen and (max-width: 360px) {
             width: 135px;
         }
 
-        @media (max-width: 320px) {
+        
+        @media only screen and (max-width: 320px) {
             width: 100px;
         }
 
-        @media (max-width: 375px) {
-            width: 145px;
-        }
-
-        @media (max-width: 360px) {
-            width: 135px;
-        }
 
     }
 
@@ -112,11 +108,12 @@
         width: 200px;
         float: left;
 
-        @media (max-width: 410px) {
-            width: 200px;
+        @media only screen and (max-width: 360px) {
+            width: 180px;
         }
-        @media (max-width: 320px) {
-            width: 150px;
+
+        @media only screen and (max-width: 320px) {
+            width: 140px;
         }
 
 
@@ -128,21 +125,12 @@
         width: 225px;
         float: right;
 
-        @media (max-width: 410px) {
-            width: 225px;
-        }
-
-        @media (max-width: 400px) {
+        @media only screen and (max-width: 360px) {
             width: 180px;
         }
 
-        @media (max-width: 320px) {
-            width: 145px;
+        @media only screen and (max-width: 320px) {
+            width: 150px;
         }
-
-        @media (max-width: 360px) {
-            width: 180px;
-        }
-
     }
 }

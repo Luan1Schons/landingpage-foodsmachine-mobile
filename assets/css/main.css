@@ -1079,9 +1079,9 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
 }
 
-@media (max-width: 320px) {
+@media only screen and (max-width: 360px) {
   .steps .card h2 {
-    font-size: 14px !important;
+    font-size: 14px;
   }
 }
 
@@ -1111,6 +1111,12 @@ body::-webkit-scrollbar-thumb {
   font-size: 19px !important;
 }
 
+@media only screen and (max-width: 360px) {
+  .steps .step-desc-3 {
+    font-size: 14px !important;
+  }
+}
+
 .steps .desc-1 {
   position: absolute;
   -webkit-transform: scale(1.2);
@@ -1119,33 +1125,15 @@ body::-webkit-scrollbar-thumb {
   float: right;
 }
 
-@media (max-width: 410px) {
-  .steps .desc-1 {
-    width: 180px;
-  }
-}
-
-@media (max-width: 400px) {
+@media only screen and (max-width: 360px) {
   .steps .desc-1 {
     width: 135px;
   }
 }
 
-@media (max-width: 320px) {
+@media only screen and (max-width: 320px) {
   .steps .desc-1 {
     width: 100px;
-  }
-}
-
-@media (max-width: 375px) {
-  .steps .desc-1 {
-    width: 145px;
-  }
-}
-
-@media (max-width: 360px) {
-  .steps .desc-1 {
-    width: 135px;
   }
 }
 
@@ -1157,15 +1145,15 @@ body::-webkit-scrollbar-thumb {
   float: left;
 }
 
-@media (max-width: 410px) {
+@media only screen and (max-width: 360px) {
   .steps .desc-2 {
-    width: 200px;
+    width: 180px;
   }
 }
 
-@media (max-width: 320px) {
+@media only screen and (max-width: 320px) {
   .steps .desc-2 {
-    width: 150px;
+    width: 140px;
   }
 }
 
@@ -1177,27 +1165,15 @@ body::-webkit-scrollbar-thumb {
   float: right;
 }
 
-@media (max-width: 410px) {
-  .steps .desc-3 {
-    width: 225px;
-  }
-}
-
-@media (max-width: 400px) {
+@media only screen and (max-width: 360px) {
   .steps .desc-3 {
     width: 180px;
   }
 }
 
-@media (max-width: 320px) {
+@media only screen and (max-width: 320px) {
   .steps .desc-3 {
-    width: 145px;
-  }
-}
-
-@media (max-width: 360px) {
-  .steps .desc-3 {
-    width: 180px;
+    width: 150px;
   }
 }
 
@@ -1212,29 +1188,29 @@ body::-webkit-scrollbar-thumb {
 
 .show-app .container .title h3 {
   font-family: "FuturaBk", Arial, sans-serif;
-  font-size: min(19px, 10vw);
+  font-size: min(19px, 4vw);
   letter-spacing: 0px;
 }
 
 .show-app .container .title h3 b {
   font-family: "TheFontBold", Arial, sans-serif;
-  font-size: min(19px, 15vw);
+  font-size: min(19px, 4vw);
 }
 
 .show-app .container .title h2 {
-  font-size: min(30px, 17vw);
+  font-size: min(30px, 6vw);
   font-family: "TheFontBold", Arial, sans-serif;
 }
 
 .show-app .container .title h2 span {
   font-family: "FuturaBk", Arial, sans-serif;
-  font-size: min(19px, 17vw);
+  font-size: min(19px, 4vw);
   font-weight: bold;
 }
 
 .show-app .container .title .desc {
   font-family: "FuturaBk", Arial, sans-serif;
-  font-size: min(19px, 9vw);
+  font-size: min(19px, 4vw);
 }
 
 .show-app .container .title .desc b {
