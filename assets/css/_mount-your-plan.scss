@@ -421,7 +421,7 @@
             font-family: "TheFontBold", Arial, sans-serif;
             color: #c9c9c9;
             font-weight: bold;
-            font-size: 21px;
+            font-size: #{"min(21px, 4.2vw)"};
         }
 
         .container-black {
@@ -439,12 +439,12 @@
                 padding: 25px 45px 0px 45px;
 
                 .slashes {
-                    font-size: 30px;
+                    font-size: #{"min(30px, 5vw)"};
                     opacity: 0.5;
                 }
 
                 h4 {
-                    font-size: #{"min(17px, 4vw)"};
+                    font-size: #{"min(17px, 3.8vw)"};
                     font-family: "TheFontBold", Arial, sans-serif;
                     color: #fff;
                 }
@@ -453,7 +453,7 @@
                     font-family: "TheFontBold", Arial, sans-serif;
                     color: #fff;
                     h1 {
-                        font-size: #{"min(44px, 12vw)"};
+                        font-size: #{"min(44px, 11vw)"};
                     }
 
                     span {
@@ -465,7 +465,7 @@
                         display: inline-block;
                     }
                     b {
-                        font-size: 12px;
+                        font-size: #{"min(12px, 3vw)"};
                     }
                 }
 
@@ -480,14 +480,14 @@
                     }
 
                     h2 {
-                        font-size: #{"min(20px, 4vw)"};
+                        font-size: #{"min(20px, 3.9vw)"};
                         letter-spacing: 0.5rem;
                         font-family: "FuturaBk", Arial, sans-serif;
                     }
 
                     span {
                         position: relative;
-                        font-size: 12px;
+                        font-size: #{"min(12px, 4vw)"};
                         color: #fff;
                     }
                 }
@@ -497,21 +497,21 @@
         .cian {
             h2 {
                 color: #2a98aa;
-                font-size: #{"min(30px, 6vw)"};
+                font-size: #{"min(30px, 8vw)"};
                 text-align: center;
                 font-family: "TheFontBold", Arial, sans-serif;
             }
 
             h1 {
                 color: #2a98aa;
-                font-size: #{"min(42px, 7vw)"};
+                font-size: #{"min(42px,9.2vw)"};
                 text-align: center;
                 font-family: "TheFontBold", Arial, sans-serif;
             }
 
             span {
                 color: #2a98aa;
-                font-size: #{"min(42px, 4vw)"};
+                font-size: #{"min(42px, 4.2vw)"};
                 text-align: center;
                 font-family: "FuturaBk", Arial, sans-serif;
                 letter-spacing: 0.2rem;
@@ -519,7 +519,7 @@
         }
     }
     .advertising {
-        font-size: #{"min(17px, 4vw)"};
+        font-size: #{"min(17px, 3.2vw)"};
         color: #989898;
         font-family: "FuturaBk", Arial, sans-serif;
         margin-bottom: 100px;

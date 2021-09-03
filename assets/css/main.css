@@ -45,6 +45,21 @@ body .background-section {
   padding-bottom: 50px;
 }
 
+body .background-section .btn {
+  width: 100%;
+  font-size: min(13px, 2.9vw);
+  -webkit-box-shadow: inset -3px 3px 7px -6px #000000;
+  box-shadow: inset -3px 3px 7px -6px #000000;
+  padding: 15px 20px;
+}
+
+@media only screen and (max-width: 900px) {
+  body .background-section .btn {
+    -webkit-transform: scale(1.08);
+            transform: scale(1.08);
+  }
+}
+
 body::-webkit-scrollbar {
   width: 5px;
 }
@@ -1788,7 +1803,7 @@ body::-webkit-scrollbar-thumb {
   font-family: "TheFontBold", Arial, sans-serif;
   color: #c9c9c9;
   font-weight: bold;
-  font-size: 21px;
+  font-size: min(21px, 4.2vw);
 }
 
 .mount-your-plan .sell-showcase .container-black .black {
@@ -1801,12 +1816,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 .mount-your-plan .sell-showcase .container-black .black .slashes {
-  font-size: 30px;
+  font-size: min(30px, 5vw);
   opacity: 0.5;
 }
 
 .mount-your-plan .sell-showcase .container-black .black h4 {
-  font-size: min(17px, 4vw);
+  font-size: min(17px, 3.8vw);
   font-family: "TheFontBold", Arial, sans-serif;
   color: #fff;
 }
@@ -1818,7 +1833,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .mount-your-plan .sell-showcase .container-black .black .discount h1 {
-  font-size: min(44px, 12vw);
+  font-size: min(44px, 11vw);
 }
 
 .mount-your-plan .sell-showcase .container-black .black .discount span {
@@ -1831,7 +1846,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .mount-your-plan .sell-showcase .container-black .black .discount b {
-  font-size: 12px;
+  font-size: min(12px, 3vw);
 }
 
 .mount-your-plan .sell-showcase .container-black .black .price {
@@ -1846,41 +1861,41 @@ body::-webkit-scrollbar-thumb {
 }
 
 .mount-your-plan .sell-showcase .container-black .black .price h2 {
-  font-size: min(20px, 4vw);
+  font-size: min(20px, 3.9vw);
   letter-spacing: 0.5rem;
   font-family: "FuturaBk", Arial, sans-serif;
 }
 
 .mount-your-plan .sell-showcase .container-black .black .price span {
   position: relative;
-  font-size: 12px;
+  font-size: min(12px, 4vw);
   color: #fff;
 }
 
 .mount-your-plan .sell-showcase .cian h2 {
   color: #2a98aa;
-  font-size: min(30px, 6vw);
+  font-size: min(30px, 8vw);
   text-align: center;
   font-family: "TheFontBold", Arial, sans-serif;
 }
 
 .mount-your-plan .sell-showcase .cian h1 {
   color: #2a98aa;
-  font-size: min(42px, 7vw);
+  font-size: min(42px,9.2vw);
   text-align: center;
   font-family: "TheFontBold", Arial, sans-serif;
 }
 
 .mount-your-plan .sell-showcase .cian span {
   color: #2a98aa;
-  font-size: min(42px, 4vw);
+  font-size: min(42px, 4.2vw);
   text-align: center;
   font-family: "FuturaBk", Arial, sans-serif;
   letter-spacing: 0.2rem;
 }
 
 .mount-your-plan .advertising {
-  font-size: min(17px, 4vw);
+  font-size: min(17px, 3.2vw);
   color: #989898;
   font-family: "FuturaBk", Arial, sans-serif;
   margin-bottom: 100px;

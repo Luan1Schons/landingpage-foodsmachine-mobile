@@ -37,6 +37,20 @@ body {
         box-shadow: 0px 2px 28px -10px #f3e8e8;
         border-radius: 0px 0px 45px 45px;
         padding-bottom: 50px;
+
+        .btn {
+            width: 100%;
+            font-size: #{"min(13px, 2.9vw)"};
+            -webkit-box-shadow: inset -3px 3px 7px -6px #000000;
+            box-shadow: inset -3px 3px 7px -6px #000000;
+            padding: 15px 20px;
+
+            
+            @media only screen and (max-width: 900px) {
+                transform: scale(1.08);
+            }
+
+        }
     }
 }
 
