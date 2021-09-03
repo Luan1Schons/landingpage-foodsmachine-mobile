@@ -1,0 +1,2484 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FoodsMachine - Mobile Landing Page</title>
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets\js\owl\assets\owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCqdefault.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body id="app">
+
+  <div class="presentation">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light lp-header">
+      <div class="container-fluid">
+        <div class="navbar" id="navbarSupportedContent">
+          <form class="d-flex flex-wrap">
+            <div class="header-buttons">
+              <button type="button" class="btn btn-purple mb-2 me-2" data-bs-toggle="modal"
+                data-bs-target="#login">ENTRAR</button>
+              <button type="button" class="btn btn-red-glow register-btn mb-2" data-bs-toggle="modal"
+                data-bs-target="#register">INICIE
+                SEU TESTE GRÁTIS DE <b>15</b> DIAS</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- Modal Promoção -->
+    <div class="promo">
+      <div class="modal fade" id="promo" tabindex="-1" aria-labelledby="promo" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="d-flex align-items-center flex-wrap justify-content-center">
+                  <div class="col-md-5 crono text-center">
+                    <h3>INICIE O SEU PERIODO DO TESTE</h3>
+                    <h1>DENTRO DE</h1>
+                    <div class="card">
+                      <div class="card-body">
+                        <h1>20:59:21</h1>
+                      </div>
+                    </div>
+                    <p>Fique tranquilo, dentro do período de teste não precisa pagar boleto ou adicionar cartão</p>
+                  </div>
+                  <div class="col-md-3">
+
+                  </div>
+                  <div class="col-md-4 text-center cta">
+                    <img class="nav-item-heart" src="assets/imgs/svgs/heart.svg" />
+
+                    <h2>E GARANTA</h2>
+                    <h1>15% OFF</h1>
+                    <h3>POR 3 MESES</h3>
+
+                    <button type="button" class="btn btn-red-glow mt-5" style="width: 100%;" data-bs-toggle="modal"
+                      data-bs-target="#register">INICIE
+                      SEU TESTE GRÁTIS DE <b>15</b> DIAS</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Adicionar Módulo -->
+    <div class="add-module-modal">
+      <div class="modal fade" id="add-module-modal" tabindex="-1" aria-labelledby="add-module-modal" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="card gradient box-mount" id="monte-seu-plano">
+
+                  <h2 class="text-center">MONTE</h2>
+
+                  <div class="d-flex justify-content-center">
+                    <h1>SEU PLANO</h1>
+                    <img class="heart" src="assets/imgs/svgs/heart.svg">
+                  </div>
+
+                  <div class="card sticky-price position-sticky">
+                    <div class="card-body">
+                      <div class="plan-details">
+                        <div class="title text-center">
+                          <h3>VALOR DO SEU PLANO</h3>
+                        </div>
+                        <div class="price d-flex flex-wrap justify-content-center align-items-center">
+                          <h1>R$00,00</h1>
+                          <h2 class="ms-3">Mês</h2>
+                        </div>
+
+                        <div class="line"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card modules mb-2">
+                    <div class="card-body">
+                      <div class="container mt-4">
+                        <div class="module-list">
+
+                          <div class="d-flex justify-content-center mb-4">
+                            <button type="button" class="btn-red-modules text-center"><img
+                                src="assets/imgs/svgs/modules/btn-icons/hand.svg">ESSÊNCIAIS</button>
+                          </div>
+
+                          <div class="card active">
+                            <div class="row">
+                              <div class="col d-flex justify-content-center">
+                                <img src="assets/imgs/svgs/modules/my-site-delivery.svg" class="icon">
+                              </div>
+
+                              <div class="col-md-8 d-flex justify-content-center align-items-center item">
+                                <h4>MEU SITE DELIVERY</h4>
+                              </div>
+
+                              <div class="col-md-2 d-flex justify-content-end">
+                                <h3 class="mt-2">INCLUSO</h3>
+                              </div>
+                            </div>
+
+                            <div class="col d-flex justify-content-center mt-2">
+                              <button class="btn" data-bs-toggle="collapse" data-bs-target="#collapseSiteDelivery"
+                                aria-expanded="false" aria-controls="collapseSiteDelivery">VER <b>DETALHES</b> <i
+                                  class="fas fa-chevron-down ms-2"></i></button>
+                            </div>
+                          </div>
+
+                          <div class="collapse" id="collapseSiteDelivery">
+                            <div class="desc m-5">
+                              Tenha um Cardápio Digital que impressione seus clientes, fácil de usar e totalmente
+                              integrado com WhatsApp, e tenha seu link próprio, para compartilhar através das redes
+                              sociais .
+                            </div>
+                          </div>
+
+
+                          <div class="card active">
+                            <div class="row">
+                              <div class="col d-flex justify-content-center align-items-center">
+                                <img src="assets/imgs/svgs/modules/gestor-pedidos.svg" class="icon">
+                              </div>
+
+                              <div class="col-md-8 d-flex justify-content-center align-items-center item">
+                                <h4>GESTOR DE PEDIDOS</h4>
+                              </div>
+
+                              <div class="col-md-2 d-flex justify-content-end align-items-center">
+                                <h3 class="mt-2">INCLUSO</h3>
+                              </div>
+                            </div>
+
+                            <div class="col d-flex justify-content-center mt-2">
+                              <button class="btn" data-bs-toggle="collapse" data-bs-target="#collapseGestorPedidos"
+                                aria-expanded="false" aria-controls="collapseGestorPedidos">VER <b>DETALHES</b> <i
+                                  class="fas fa-chevron-down ms-2"></i></button>
+                            </div>
+                          </div>
+
+                          <div class="collapse" id="collapseGestorPedidos">
+                            <div class="desc m-5">
+                              Centralize todos seus pedidos do seu cardápio ou até mesmo das integrações como ifood ,
+                              rappi, delivery much em um só lugar, e aumente a produtividade de sua equipe. Veja
+                              status
+                              de cada pedido, ative impressão automática, aparência limpa e fácil de utilizar.
+                            </div>
+                          </div>
+
+                          <div class="card active">
+                            <div class="row">
+                              <div class="col d-flex justify-content-center align-items-center">
+                                <img src="assets/imgs/svgs/modules/relatorio.svg" class="icon svg-white">
+                              </div>
+
+                              <div class="col-md-8 d-flex justify-content-center align-items-center item">
+                                <h4>RELATÓRIO</h4>
+                              </div>
+
+                              <div class="col-md-2 d-flex justify-content-end align-items-center">
+                                <h3 class="mt-2">INCLUSO</h3>
+                              </div>
+                            </div>
+
+                            <div class="col d-flex justify-content-center">
+                              <button class="btn" data-bs-toggle="collapse" data-bs-target="#collapseRelatorio"
+                                aria-expanded="false" aria-controls="collapseRelatorio">VER <b>DETALHES</b> <i
+                                  class="fas fa-chevron-down ms-2"></i></button>
+                            </div>
+                          </div>
+
+                          <div class="collapse" id="collapseRelatorio">
+                            <div class="desc m-5">
+                              Saiba como está o crescimento de sua empresa, através do relatório completo com
+                              faturamento diária, semanal, mensal e anual. Veja ranking dos itens mais vendidos, saiba
+                              horários que mais vende, até mesmo os dias da semana que mais vende! e muito mais...
+                            </div>
+                          </div>
+
+                          <div class="card active">
+                            <div class="row">
+                              <div class="col d-flex justify-content-center align-items-center">
+                                <img src="assets/imgs/svgs/modules/clientes.svg" class="icon svg-white">
+                              </div>
+
+                              <div class="col-md-8 d-flex justify-content-center align-items-center item">
+                                <h4>CLIENTES</h4>
+                              </div>
+
+                              <div class="col-md-2 d-flex justify-content-end align-items-center">
+                                <h3 class="mt-2">INCLUSO</h3>
+                              </div>
+                            </div>
+
+                            <div class="col d-flex justify-content-center">
+                              <button class="btn" data-bs-toggle="collapse" data-bs-target="#collapseClientes"
+                                aria-expanded="false" aria-controls="collapseClientes">VER <b>DETALHES</b> <i
+                                  class="fas fa-chevron-down ms-2"></i></button>
+                            </div>
+                          </div>
+
+                          <div class="collapse" id="collapseClientes">
+                            <div class="desc m-5">
+                              Conheça quem compra de você! tenha acesso as informações necessárias como Email,
+                              WhatsApp, Endereço para suas futuras campanhas de marketing, saiba também a quantos dias
+                              seu cliente não faz novas compras, e muito mais...
+                            </div>
+                          </div>
+
+
+
+                          <div class="card">
+                            <div class="row">
+                              <div class="col d-flex justify-content-center align-items-center">
+                                <img src="assets/imgs/svgs/modules/venda-balcao.svg" class="icon svg-black">
+                              </div>
+
+                              <div class="col-md-8 text-center item">
+                                <h4>VENDA BALCÃO</h4>
+                                <div class="col-md-12 text-center">
+                                  <p>(FRENTE DE CAIXA PDV)</p>
+                                </div>
+                              </div>
+
+                              <div class="col-md-2 d-flex justify-content-end align-items-center">
+                                <div class="switch mt-3">
+                                  <input id="one" class="input" type="checkbox">
+                                  <label for="one" class="slider"></label>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="col d-flex justify-content-center">
+                              <button class="btn" data-bs-toggle="collapse" data-bs-target="#collapseVendaBalcao"
+                                aria-expanded="false" aria-controls="collapseVendaBalcao">VER <b>DETALHES</b> <i
+                                  class="fas fa-chevron-down ms-2"></i></button>
+                            </div>
+                          </div>
+
+                          <div class="collapse" id="collapseVendaBalcao">
+                            <div class="desc m-5">
+                              Ofereça um atendimento otimizado para seu cliente, com visual limpo e fácil de entender,
+                              crie pedidos , edite e exclua, de uma forma rápida!
+                            </div>
+                          </div>
+
+                          <div class="card">
+                            <div class="row">
+                              <div class="col d-flex justify-content-center align-items-center">
+                                <img src="assets/imgs/svgs/modules/gestao-de-estoque.svg" class="icon svg-black">
+                              </div>
+
+                              <div class="col-md-8 text-center item">
+                                <h4>GESTÃO DE ESTOQUE</h4>
+                              </div>
+
+                              <div class="col-md-2 d-flex justify-content-end align-items-center">
+                                <div class="switch mt-3">
+                                  <input id="gestao_estoque" class="input" type="checkbox">
+                                  <label for="gestao_estoque" class="slider"></label>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="col d-flex justify-content-center">
+                              <button class="btn" data-bs-toggle="collapse" data-bs-target="#collapseGestorEstoque"
+                                aria-expanded="false" aria-controls="collapseGestorEstoque">VER <b>DETALHES</b> <i
+                                  class="fas fa-chevron-down ms-2"></i></button>
+                            </div>
+                          </div>
+
+                          <div class="collapse" id="collapseGestorEstoque">
+                            <div class="desc m-5">
+                              Não passe mais aperto por faltar algo na hora que mais precisa! controle todos os itens
+                              e
+                              insumos, crie, edite e exclua de uma forma simples e rápida. Faça adição ou retirada de
+                              estoque, saiba o custo de cada item e insumo, e cadastre também ilimitadamente!
+                            </div>
+                          </div>
+
+
+                          <div class="card">
+                            <div class="row">
+                              <div class="col d-flex justify-content-center align-items-center">
+                                <img src="assets/imgs/svgs/modules/agendamento.svg" class="icon svg-black">
+                              </div>
+
+                              <div class="col-md-8 text-center item">
+                                <h4>AGENDAMENTO</h4>
+                              </div>
+
+                              <div class="col-md-2 d-flex justify-content-end align-items-center">
+                                <div class="switch mt-3">
+                                  <input id="checkbox_agendamento" class="input" type="checkbox">
+                                  <label for="checkbox_agendamento" class="slider"></label>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="col d-flex justify-content-center">
+                              <button class="btn" data-bs-toggle="collapse" data-bs-target="#collapseAgendamento"
+                                aria-expanded="false" aria-controls="collapseAgendamento">VER <b>DETALHES</b> <i
+                                  class="fas fa-chevron-down ms-2"></i></button>
+                            </div>
+                          </div>
+
+                          <div class="collapse" id="collapseAgendamento">
+                            <div class="desc m-5">
+                              Receba agendamento até mesmo quando estiver fechado, receba notificações para começar a
+                              produção do item agendado.
+                            </div>
+                          </div>
+
+                          <div class="card coming-soon">
+                            <div class="row">
+                              <div class="col d-flex justify-content-center align-items-center">
+                                <img src="assets/imgs/svgs/modules/comandas-e-mesas.svg" class="icon svg-gray">
+                              </div>
+
+                              <div class="col-md-8 d-flex justify-content-center align-items-center item">
+                                <h4>COMANDAS E MESAS</h4>
+                              </div>
+
+                              <div class="col-md-2 d-flex justify-content-end align-items-center item">
+                                <h3 class="text-center">EM BREVE</h3>
+                              </div>
+                            </div>
+
+                            <div class="col d-flex justify-content-center">
+                              <button class="btn" data-bs-toggle="collapse" data-bs-target="#collapseComandasEMesas"
+                                aria-expanded="false" aria-controls="collapseComandasEMesas">VER <b>DETALHES</b> <i
+                                  class="fas fa-chevron-down ms-2"></i></button>
+                            </div>
+                          </div>
+
+                          <div class="collapse" id="collapseComandasEMesas">
+                            <div class="desc m-5">
+                              Automatize seu estabelecimento , recebendo pedidos diretamente da mesa via qr code, sem
+                              deixar seu cliente esperando e seu garçom com acesso a todas as comandas podendo
+                              adicionar
+                              itens e fechar a conta.
+                            </div>
+                          </div>
+
+
+                          <div class="d-flex justify-content-center mb-4">
+                            <button class="btn-red-modules mt-4 mb-4"><img
+                                src="assets/imgs/svgs/modules/btn-icons/marketing.svg">
+                              Marketing</button>
+                          </div>
+
+                          <div class="card">
+                            <div class="row">
+                              <div class="col d-flex justify-content-center align-items-center">
+                                <img src="assets/imgs/svgs/modules/cashback.svg" class="icon svg-black">
+                              </div>
+
+                              <div class="col-md-8 text-center item">
+                                <h4>CASHBACK</h4>
+                              </div>
+
+                              <div class="col-md-2 d-flex justify-content-end align-items-center">
+                                <div class="switch mt-3">
+                                  <input id="checkbox_cashback" class="input" type="checkbox">
+                                  <label for="checkbox_cashback" class="slider"></label>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="col d-flex justify-content-center">
+                              <button class="btn" data-bs-toggle="collapse" data-bs-target="#collapseCashback"
+                                aria-expanded="false" aria-controls="collapseCashback">VER <b>DETALHES</b> <i
+                                  class="fas fa-chevron-down ms-2"></i></button>
+                            </div>
+                          </div>
+
+                          <div class="collapse" id="collapseCashback">
+                            <div class="desc m-5">
+                              Aumente a fidelidade de seus clientes, configure o valor e que será convertido em pontos
+                              para seu cliente trocar por descontos e até mesmo por produtos, veja a quantidade de
+                              clientes utilizando o cashback.
+                            </div>
+                          </div>
+
+
+                          <div class="card">
+                            <div class="row">
+                              <div class="col d-flex justify-content-center align-items-center">
+                                <img src="assets/imgs/svgs/modules/cupons.svg" class="icon svg-black">
+                              </div>
+
+                              <div class="col-md-8 text-center item">
+                                <h4>CUPOM DE DESCONTO</h4>
+                              </div>
+
+                              <div class="col-md-2 d-flex justify-content-end align-items-center">
+                                <div class="switch mt-3">
+                                  <input id="checkbox_desconto" class="input" type="checkbox">
+                                  <label for="checkbox_desconto" class="slider"></label>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="col d-flex justify-content-center">
+                              <button class="btn" data-bs-toggle="collapse" data-bs-target="#collapseDesconto"
+                                aria-expanded="false" aria-controls="collapseDesconto">VER <b>DETALHES</b> <i
+                                  class="fas fa-chevron-down ms-2"></i></button>
+                            </div>
+                          </div>
+
+                          <div class="collapse" id="collapseDesconto">
+                            <div class="desc m-5">
+                              Aumente suas vendas oferecendo cupom de desconto para seus clientes, envie cupom de
+                              desconto via cupom não fiscal, por popup e também por palavra chave!
+                            </div>
+                          </div>
+
+                          <div class="card">
+                            <div class="row">
+                              <div class="col d-flex justify-content-center align-items-center">
+                                <img src="assets/imgs/svgs/modules/sms.svg" class="icon svg-black">
+                              </div>
+
+                              <div class="col-md-8 text-center item">
+                                <h4>SMS MARKETING</h4>
+                              </div>
+
+                              <div class="col-md-2 d-flex justify-content-end align-items-center">
+                                <div class="switch mt-3">
+                                  <input id="checkbox_sms" class="input" type="checkbox">
+                                  <label for="checkbox_sms" class="slider"></label>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="col d-flex justify-content-center">
+                              <button class="btn" data-bs-toggle="collapse" data-bs-target="#collapseSms"
+                                aria-expanded="false" aria-controls="collapseSms">VER <b>DETALHES</b> <i
+                                  class="fas fa-chevron-down ms-2"></i></button>
+                            </div>
+                          </div>
+
+
+                          <div class="collapse" id="collapseSms">
+                            <div class="desc m-5">
+                              Aumente suas vendas enviando sms marketing para seus clientes, envie promoções, cupom de
+                              desconto, novidades, ofertas e muito mais, faça a recarga do valor desejado e utilize
+                              quando quiser da forma que quiser.
+                            </div>
+                          </div>
+
+
+                          <div class="card">
+                            <div class="row">
+                              <div class="col d-flex justify-content-center align-items-center">
+                                <img src="assets/imgs/svgs/modules/promocoes.svg" class="icon svg-black">
+                              </div>
+
+                              <div class="col-md-8 text-center item">
+                                <h4>PROMOÇÕES</h4>
+                              </div>
+
+                              <div class="col-md-2 d-flex justify-content-end align-items-center">
+                                <div class="switch mt-3">
+                                  <input id="checkbox_promocoes" class="input" type="checkbox">
+                                  <label for="checkbox_promocoes" class="slider"></label>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="col d-flex justify-content-center">
+                              <button class="btn" data-bs-toggle="collapse" data-bs-target="#collapsePromocoes"
+                                aria-expanded="false" aria-controls="collapsePromocoes">VER <b>DETALHES</b> <i
+                                  class="fas fa-chevron-down ms-2"></i></button>
+                            </div>
+                          </div>
+
+                          <div class="collapse" id="collapsePromocoes">
+                            <div class="desc m-5">
+                              Aumente seu ticket de vendas, mostrando promoções em destaque, com senso de escassez,
+                              configurando quantidade de cada item para a promoção faça promoções de desconto por
+                              porcentagens, entrega grátis e compre e ganhe!
+                            </div>
+                          </div>
+
+                          <div class="card coming-soon">
+                            <div class="row">
+                              <div class="col d-flex justify-content-center align-items-center">
+                                <img src="assets/imgs/svgs/modules/impulsionamento.svg" class="icon svg-gray">
+                              </div>
+
+                              <div class="col-md-8 d-flex justify-content-center align-items-center item text-center">
+                                <h4>IMPULSIONAMENTO TURBO</h4>
+                              </div>
+
+                              <div class="col-md-2 d-flex justify-content-end align-items-center item">
+                                <h3 class="text-center">EM BREVE</h3>
+                              </div>
+                            </div>
+
+                            <div class="col d-flex justify-content-center">
+                              <button class="btn" data-bs-toggle="collapse" data-bs-target="#collapseImpulsionamento"
+                                aria-expanded="false" aria-controls="collapseImpulsionamento">VER <b>DETALHES</b> <i
+                                  class="fas fa-chevron-down ms-2"></i></button>
+                            </div>
+                          </div>
+
+                          <div class="collapse" id="collapseImpulsionamento">
+                            <div class="desc m-5">
+                              Faça impulsionamento turbo no facebook e instagram com apenas 3 cliques, defina o valor
+                              ,
+                              escolha a promoção , e faça descrição e finalize. (necessário ter crédito na conta do
+                              facebook)
+                            </div>
+                          </div>
+
+
+                          <div class="d-flex justify-content-center">
+                            <button class="btn-red-modules mt-4 mb-4"><img
+                                src="assets/imgs/svgs/modules/btn-icons/produtividade.svg">
+                              PRODUTIVIDADE</button>
+                          </div>
+
+
+                          <div class="card">
+                            <div class="row">
+                              <div class="col d-flex justify-content-center align-items-center">
+                                <img src="assets/imgs/svgs/modules/entregador.svg" class="icon svg-black">
+                              </div>
+
+                              <div class="col-md-8 text-center item">
+                                <h4>ENTREGADOR</h4>
+                              </div>
+
+                              <div class="col-md-2 d-flex justify-content-end align-items-center">
+                                <div class="switch mt-3">
+                                  <input id="checkbox_entregador" class="input" type="checkbox">
+                                  <label for="checkbox_entregador" class="slider"></label>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="col d-flex justify-content-center">
+                              <button class="btn" data-bs-toggle="collapse" data-bs-target="#collapseEntregador"
+                                aria-expanded="false" aria-controls="collapseEntregador">VER <b>DETALHES</b> <i
+                                  class="fas fa-chevron-down ms-2"></i></button>
+                            </div>
+                          </div>
+
+                          <div class="collapse" id="collapseEntregador">
+                            <div class="desc m-5">
+                              Registre entregadores, configure como quer pagar o entregador, veja histórico de pedidos
+                              e
+                              valor por entrega, veja ganhos diários, semanal e mensal, imprima recibos de pagamento e
+                              muito mais.
+                            </div>
+                          </div>
+
+                          <div class="card coming-soon">
+                            <div class="row">
+                              <div class="col d-flex justify-content-center align-items-center">
+                                <img src="assets/imgs/svgs/modules/monitor.svg" class="icon svg-gray">
+                              </div>
+
+                              <div class="col-md-8 d-flex justify-content-center align-items-center item text-center">
+                                <h4>MONITOR PREPARO</h4>
+                              </div>
+
+                              <div class="col-md-2 d-flex justify-content-end align-items-center item">
+                                <h3 class="text-center">EM BREVE</h3>
+                              </div>
+                            </div>
+
+                            <div class="col d-flex justify-content-center">
+                              <button class="btn" data-bs-toggle="collapse" data-bs-target="#collapseMonitor"
+                                aria-expanded="false" aria-controls="collapseMonitor">VER <b>DETALHES</b> <i
+                                  class="fas fa-chevron-down ms-2"></i></button>
+                            </div>
+                          </div>
+
+                          <div class="collapse" id="collapseMonitor">
+                            <div class="desc m-5">
+                              Automatize ainda mais seu estabelecimento com pedidos atualizados diretamente da
+                              cozinha,
+                              aumentando a produtividade e organização de sua equipe, podendo marcar item como feito
+                              entre outras funções.
+                            </div>
+                          </div>
+
+                          <div class="d-flex justify-content-center">
+                            <button class="btn-red-modules mt-4 mb-4"><img
+                                src="assets/imgs/svgs/modules/btn-icons/gestor-financeiro.svg">
+                              GESTOR FINANCEIRO</button>
+                          </div>
+
+                          <div class="card coming-soon">
+                            <div class="row">
+                              <div class="col d-flex justify-content-center align-items-center">
+                                <img src="assets/imgs/svgs/modules/nfe.svg" class="icon svg-gray">
+                              </div>
+
+                              <div class="col-md-8 d-flex justify-content-center align-items-center item text-center">
+                                <h4>NF-E E SAT</h4>
+                              </div>
+
+                              <div class="col-md-2 d-flex justify-content-end align-items-center item">
+                                <h3 class="text-center">EM BREVE</h3>
+                              </div>
+                            </div>
+
+                            <div class="col d-flex justify-content-center">
+                              <button class="btn" data-bs-toggle="collapse" data-bs-target="#collapseNFE"
+                                aria-expanded="false" aria-controls="collapseNFE">VER <b>DETALHES</b> <i
+                                  class="fas fa-chevron-down ms-2"></i></button>
+                            </div>
+                          </div>
+
+                          <div class="collapse" id="collapseNFE">
+                            <div class="desc m-5">
+                              Emita Nf-e e sat do seu pedido para seu cliente, de uma forma rápida e pratica!
+                            </div>
+                          </div>
+
+                          <div class="card coming-soon">
+                            <div class="row">
+                              <div class="col d-flex justify-content-center align-items-center">
+                                <img src="assets/imgs/svgs/modules/gestor-financeiro.svg" class="icon svg-gray">
+                              </div>
+
+                              <div class="col-md-8 d-flex justify-content-center align-items-center item text-center">
+                                <h4>GESTOR FINANCEIRO</h4>
+                              </div>
+
+                              <div class="col-md-2 d-flex justify-content-end align-items-center item">
+                                <h3 class="text-center">EM BREVE</h3>
+                              </div>
+                            </div>
+
+                            <div class="col d-flex justify-content-center">
+                              <button class="btn" data-bs-toggle="collapse" data-bs-target="#collapseFinanceiro"
+                                aria-expanded="false" aria-controls="collapseFinanceiro">VER <b>DETALHES</b> <i
+                                  class="fas fa-chevron-down ms-2"></i></button>
+                            </div>
+                          </div>
+
+                          <div class="collapse" id="collapseFinanceiro">
+                            <div class="desc m-5">
+                              Tenha o controle do seu caixa em detalhes, podendo abrir, fechar caixa, ver informações
+                              de
+                              entradas e saídas, pagamento de contas e de funcionários, histórico financeiro etc...
+                            </div>
+                          </div>
+
+
+
+                          <div class="d-flex justify-content-center">
+                            <button class="btn-red-modules mt-4 mb-4"><img
+                                src="assets/imgs/svgs/modules/btn-icons/integrations.svg">
+                              INTEGRAÇÕES</button>
+                          </div>
+
+                          <div class="card">
+                            <div class="col-md-12 item">
+                              <div class="row">
+                                <div class="col-md-2 text-center">
+                                  <img src="assets/imgs/svgs/modules/integrations/ifood.svg" style="width: 80px;">
+                                </div>
+                                <div class="col-md-8 d-flex justify-content-center justify-item-center">
+                                  <button class="btn align-middle mt-4" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseIfood" aria-expanded="false"
+                                    aria-controls="collapseIfood">VER <b>DETALHES</b> <i
+                                      class="fas fa-chevron-down ms-2"></i></button>
+                                </div>
+
+                                <div class="col-md-2 d-flex justify-item-center justify-content-end">
+                                  <div class="switch mt-4">
+                                    <input id="checkbox_ifood" class="input" type="checkbox">
+                                    <label for="checkbox_ifood" class="slider"></label>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="collapse" id="collapseIfood">
+                            <div class="desc m-5">
+                              Integre a sua conta do <b>Ifood</b> e centralize todos seus pedidos em um só lugar
+                            </div>
+                          </div>
+
+                          <div class="card">
+                            <div class="col-md-12 item">
+                              <div class="row">
+                                <div class="col-md-2 text-center">
+                                  <img src="assets/imgs/svgs/modules/integrations/deliverymuch.svg"
+                                    style="width: 80px;">
+                                </div>
+                                <div class="col-md-8 d-flex justify-content-center justify-item-center">
+                                  <button class="btn align-middle mt-4" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseDeliveryMuch" aria-expanded="false"
+                                    aria-controls="collapseDeliveryMuch">VER <b>DETALHES</b> <i
+                                      class="fas fa-chevron-down ms-2"></i></button>
+                                </div>
+
+                                <div class="col-md-2 d-flex justify-item-center justify-content-end">
+                                  <div class="switch mt-4">
+                                    <input id="checkbox_deliverymuch" class="input" type="checkbox">
+                                    <label for="checkbox_deliverymuch" class="slider"></label>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="collapse" id="collapseDeliveryMuch">
+                            <div class="desc m-5">
+                              Integre a sua conta do <b>Delivery Much</b> e centralize todos seus pedidos em um só
+                              lugar
+                            </div>
+                          </div>
+
+                          <div class="card">
+                            <div class="col-md-12 item">
+                              <div class="row">
+                                <div class="col-md-2 text-center">
+                                  <img src="assets/imgs/svgs/modules/integrations/rappi.svg" style="width: 80px;">
+                                </div>
+                                <div class="col-md-8 d-flex justify-content-center justify-item-center">
+                                  <button class="btn align-middle mt-4" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseRappi" aria-expanded="false"
+                                    aria-controls="collapseRappi">VER <b>DETALHES</b> <i
+                                      class="fas fa-chevron-down ms-2"></i></button>
+                                </div>
+
+                                <div class="col-md-2 d-flex justify-item-center justify-content-end">
+                                  <div class="switch mt-4">
+                                    <input id="checkbox_rappi" class="input" type="checkbox">
+                                    <label for="checkbox_rappi" class="slider"></label>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="collapse" id="collapseRappi">
+                            <div class="desc m-5">
+                              Integre a sua conta do <b>Rappi</b> e centralize todos seus pedidos em um só lugar
+                            </div>
+                          </div>
+
+                          <div class="card">
+                            <div class="col-md-12 item">
+                              <div class="row">
+                                <div class="col-md-2 text-center mt-3">
+                                  <img src="assets/imgs/svgs/modules/integrations/mercadopago.svg"
+                                    style="width: 120px;">
+                                </div>
+                                <div class="col-md-8 d-flex justify-content-center justify-item-center">
+                                  <button class="btn align-middle mt-4" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseMercadoPago" aria-expanded="false"
+                                    aria-controls="collapseMercadoPago">VER <b>DETALHES</b> <i
+                                      class="fas fa-chevron-down ms-2"></i></button>
+                                </div>
+
+                                <div class="col-md-2 d-flex justify-item-center justify-content-end">
+                                  <div class="switch mt-4">
+                                    <input id="checkbox_mercadopago" class="input" type="checkbox">
+                                    <label for="checkbox_mercadopago" class="slider"></label>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="collapse" id="collapseMercadoPago">
+                            <div class="desc m-5">
+                              Integre a sua conta do <b>Mercado Pago</b> e receba pagamentos online de seus clientes
+                            </div>
+                          </div>
+
+                          <div class="card">
+                            <div class="col-md-12 item">
+                              <div class="row">
+                                <div class="col-md-2 text-center">
+                                  <img src="assets/imgs/svgs/modules/integrations/ubereats.svg" style="width: 80px;">
+                                </div>
+                                <div class="col-md-8 d-flex justify-content-center justify-item-center">
+                                  <button class="btn align-middle mt-4" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseUberEats" aria-expanded="false"
+                                    aria-controls="collapseUberEats">VER <b>DETALHES</b> <i
+                                      class="fas fa-chevron-down ms-2"></i></button>
+                                </div>
+
+                                <div class="col-md-2 d-flex justify-item-center justify-content-end">
+                                  <div class="switch mt-4">
+                                    <input id="checkbox_ubereats" class="input" type="checkbox">
+                                    <label for="checkbox_ubereats" class="slider"></label>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="collapse" id="collapseUberEats">
+                            <div class="desc m-5">
+                              Integre a sua conta do <b>Uber Eats</b> e centralize todos seus pedidos em um só lugar
+                            </div>
+                          </div>
+
+                          <div class="card coming-soon">
+                            <div class="col-md-12 item">
+                              <div class="row">
+                                <div class="col-md-2 text-center">
+                                  <img src="assets/imgs/svgs/modules/integrations/aiqfome.svg" style="width: 80px;">
+                                </div>
+                                <div class="col-md-8 d-flex justify-content-center justify-item-center">
+                                  <button class="btn align-middle mt-4" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseAiQFome" aria-expanded="false"
+                                    aria-controls="collapseAiQFome">VER <b>DETALHES</b> <i
+                                      class="fas fa-chevron-down ms-2"></i></button>
+                                </div>
+
+                                <div class="col-md-2 d-flex justify-item-center justify-content-end">
+                                  <div class="switch mt-4">
+                                    <input id="checkbox_aiqfome" class="input" type="checkbox">
+                                    <label for="checkbox_aiqfome" class="slider"></label>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="collapse" id="collapseAiQFome">
+                            <div class="desc m-5">
+                              Integre a sua conta do <b>Ai q fome</b> e centralize todos seus pedidos em um só lugar
+                            </div>
+                          </div>
+
+                          <div class="card coming-soon">
+                            <div class="col-md-12 item">
+                              <div class="row">
+                                <div class="col-md-2 text-center">
+                                  <img src="assets/imgs/svgs/modules/integrations/ze-delivery.svg" style="width: 80px;">
+                                </div>
+                                <div class="col-md-8 d-flex justify-content-center justify-item-center">
+                                  <button class="btn align-middle mt-4" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseZeDelivery" aria-expanded="false"
+                                    aria-controls="collapseZeDelivery">VER <b>DETALHES</b> <i
+                                      class="fas fa-chevron-down ms-2"></i></button>
+                                </div>
+
+                                <div class="col-md-2 d-flex justify-item-center justify-content-end">
+                                  <div class="switch mt-4">
+                                    <input id="checkbox_zedelivery" class="input" type="checkbox">
+                                    <label for="checkbox_zedelivery" class="slider"></label>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="collapse" id="collapseZeDelivery">
+                            <div class="desc m-5">
+                              Integre a sua conta do <b>Zé Delivery</b> e centralize todos seus pedidos em um só lugar
+                            </div>
+                          </div>
+
+                          <div class="card coming-soon">
+                            <div class="col-md-12 item">
+                              <div class="row">
+                                <div class="col-md-2 text-center">
+                                  <img src="assets/imgs/svgs/modules/integrations/99food.svg" style="width: 80px;">
+                                </div>
+                                <div class="col-md-8 d-flex justify-content-center justify-item-center">
+                                  <button class="btn align-middle mt-4" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse99food" aria-expanded="false"
+                                    aria-controls="collapse99food">VER <b>DETALHES</b> <i
+                                      class="fas fa-chevron-down ms-2"></i></button>
+                                </div>
+
+                                <div class="col-md-2 d-flex justify-item-center justify-content-end">
+                                  <div class="switch mt-4">
+                                    <input id="checkbox_99food" class="input" type="checkbox">
+                                    <label for="checkbox_99food" class="slider"></label>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="collapse" id="collapse99food">
+                            <div class="desc m-5">
+                              Integre a sua conta do <b>99 food</b> e centralize todos seus pedidos em um só lugar
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+                  <div class="d-flex justify-content-center modal-footer">
+                    <button type="button" class="btn btn-modal text-center w-70" data-bs-dismiss="modal"
+                      aria-label="Close" data-bs-toggle="modal" data-bs-target="#register">PRONTO! JÁ
+                      SELECIONEI</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Registro -->
+    <div class="register" id="modalRegister">
+      <div class="modal fade" id="register" tabindex="-1" aria-labelledby="register" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+              <h5 class="modal-title text-center" id="register">CADASTRE SUA <span>EMPRESA</span> <img class="heart"
+                  width="35" src="assets/imgs/svgs/heart.svg" /></h5>
+
+
+              <div class="container">
+                <form>
+
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">NOME DA LOJA</label>
+                        <input type="text" class="form-control" aria-describedby="emailHelp">
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">www.foodsmachine.com.br/</label>
+                        <input type="text" class="form-control">
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="col-md-3">
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">CEP</label>
+                          <input type="text" class="form-control">
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">CIDADE</label>
+                        <input type="text" class="form-control">
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">ESTADO</label>
+                        <input type="text" class="form-control">
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">BAIRRO</label>
+                        <input type="text" class="form-control">
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">RUA</label>
+                        <input type="text" class="form-control">
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Nº</label>
+                        <input type="number" class="form-control">
+                      </div>
+                    </div>
+
+                    <div class="line"></div>
+
+                    <div class="col-md-4">
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">NOME</label>
+                        <input type="text" class="form-control">
+                      </div>
+                    </div>
+
+                    <div class="col-md-8">
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">SOBRENOME</label>
+                        <input type="text" class="form-control">
+                      </div>
+                    </div>
+
+                    <div class="col-md-8">
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">EMAIL</label>
+                        <input type="email" class="form-control">
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">TELEFONE OU WHATSAPP</label>
+                        <input type="text" class="form-control">
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">SENHA</label>
+                        <input type="password" class="form-control">
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">REPITA A SENHA</label>
+                        <input type="password" class="form-control">
+                      </div>
+                    </div>
+
+
+
+                    <div class="col-md-12 mt-4 modules-selected">
+                      <div class="body">
+                        <div class="d-flex justify-content-center">
+                          <div class="selected-modules mt-4">MÓDULOS <b>SELECIONADOS</b></div>
+                        </div>
+
+                        <div class="container">
+                          <div class="col-md-12">
+                            <div class="row equal add-modules">
+
+                              <div class="col-md-6 mb-2">
+                                <div class="item">
+                                  <div class="row">
+                                    <div class="col-md-9" style="padding: 0px;">
+                                      <div class="card">
+                                        <div class="card-body d-flex justify-content-center align-items-center">
+                                          <img src="assets/imgs/svgs/modules/my-site-delivery.svg"
+                                            class="icon svg-black me-2" />
+                                          <h3>MEU SITE DELIVERY</h3>
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div class="col-md-3 ticket">
+                                      <div class="card">
+                                        <div class="card-body d-flex justify-content-start align-items-start">
+                                          <h3 class="mt-2 ms-2">R$36,00</h3>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-md-6 mb-2">
+                                <div class="item">
+                                  <div class="row">
+                                    <div class="col-md-9" style="padding: 0px;">
+                                      <div class="card">
+                                        <div class="card-body d-flex justify-content-center align-items-center">
+                                          <img src="assets/imgs/svgs/modules/gestor-pedidos.svg"
+                                            class="icon svg-black me-2" />
+                                          <h3>GESTOR DE PEDIDOS</h3>
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div class="col-md-3 ticket">
+                                      <div class="card">
+                                        <div class="card-body d-flex justify-content-start align-items-start">
+                                          <h3 class="mt-2 ms-2">INCLUSO</h3>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-md-6 mb-2">
+                                <div class="item">
+                                  <div class="row">
+                                    <div class="col-md-9" style="padding: 0px;">
+                                      <div class="card">
+                                        <div class="card-body d-flex justify-content-center align-items-center">
+                                          <img src="assets/imgs/svgs/modules/relatorio.svg"
+                                            class="icon svg-black me-2" />
+                                          <h3>RELATÓRIO</h3>
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div class="col-md-3 ticket">
+                                      <div class="card">
+                                        <div class="card-body d-flex justify-content-start align-items-start">
+                                          <h3 class="mt-2 ms-2">INCLUSO</h3>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-md-6 mb-2">
+                                <div class="item">
+                                  <div class="row">
+                                    <div class="col-md-9" style="padding: 0px;">
+                                      <div class="card">
+                                        <div class="card-body d-flex justify-content-center align-items-center">
+                                          <img src="assets/imgs/svgs/modules/clientes.svg"
+                                            class="icon svg-black me-2" />
+                                          <h3>CLIENTES</h3>
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div class="col-md-3 ticket">
+                                      <div class="card">
+                                        <div class="card-body d-flex justify-content-start align-items-start">
+                                          <h3 class="mt-2 ms-2">INCLUSO</h3>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="extra-actions">
+                                <h3 class="text-center">CASO PRECISE CLIQUE NA OPÇÃO ABAIXO</h3>
+                                <div class="line"></div>
+                                <div class="d-flex flex-wrap justify-content-center align-items-center">
+                                  <div class="col-md-6 col-sm-12 p-2">
+
+                                    <button type="button" class="btn btn-cian" data-bs-dismiss="modal"
+                                      aria-label="Close" id="btnAddModuleRegister" data-bs-toggle="modal"
+                                      data-bs-target="#add-module-modal"><b>ADICIONAR</b> MAIS
+                                      MÓDULOS</button></div>
+                                  <div class="col-md-6 col-sm-12 p-2 need-help-to-mount-plan"><button type="button"
+                                      class="btn btn-white" id="btnNeedHelpRegister"><b>PRECISA</b> DE AJUDA PARA MONTAR
+                                      SEU PLANO</button>
+                                  </div>
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-12 mt-4 sell-showcase" id="regiser-showcase">
+                      <div class="row equal">
+
+                        <div class="col-md-4 col-sm-12 col-12">
+                          <div class="card s h-100">
+                            <div class="card-body d-flex justify-content-center align-self-cente">
+                              <div class="desc">
+                                <h1>TESTE DE 15 DIAS GRÁTIS</h1>
+                                <h1>+</h1>
+                                <h2>15% OFF</h2>
+                                <p>POR 3 MESES</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-md-8 col-sm-12 col-12">
+                          <div class="card black h-10">
+                            <h4 class="text-center mb-3">MÓDULOS SELECIONADO</h4>
+                            <div class="card-body">
+                              <div class="discount">
+                                <div class="col-md-12 col-sm-12">
+                                  <b>TOTAL APÓS 3 MESES</b>
+                                </div>
+
+                                <div class="col-md-12 col-sm-12 d-flex flex-wrap">
+                                  <div class="line-discount" style="color: red;text-decoration:line-through">
+                                    <h1 style="color: #fff;">R$39,55 <span>MENSAIS</span></h1>
+                                  </div>
+                                  <!-- <span>Mensais</span> -->
+                                </div>
+
+                              </div>
+
+                              <div class="col-md-12">
+                                <p class="text-white slashes" style="font-size: 30px;opacity: 2;">
+                                  ----------------------------------------</p>
+                              </div>
+
+                              <div class="price">
+                                <div class="col-md-12 col-sm-12">
+                                  <h1>R$33,91 <span>MENSAIS</span></h1>
+                                  <h2>POR 3 MESES</h2>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="payments-types">
+                        <div class="container">
+                          <div class="col-md-12 col-sm-12 mt-4">
+
+                            <div class="payments-method mt-5 mb-5">
+                              <img src="assets/imgs/svgs/payments.svg" width="85%" />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+
+                    <button type="submit" class="btn btn-cian-register" data-bs-toggle="modal"
+                      data-bs-target="#register">FINALIZAR CADASTRO E INICIAR <b>TESTE 15
+                        DIAS</b> GRÁTIS</button>
+
+                </form>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Login -->
+  <div class="modal fade login-md w-100 h-100" id="login" tabindex="-1" aria-labelledby="Login" aria-hidden="true">
+    <div class="modal-dialog modal-xl" style="max-width: 100%;">
+      <div class="modal-content">
+        <div class="modal-header position-absolute top-0 end-0">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="content">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="card-body d-flex justify-content-between">
+                    <form class="form col-md-12">
+
+                      <div class="form-group mb-4">
+                        <label for="exampleInputEmail1"><b>EMAIL</b></label>
+                        <input type="email" class="form-control" aria-describedby="emailHelp">
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputPassword1"><b>SENHA</b></label>
+                        <input type="password" class="form-control">
+                      </div>
+                      <div class="form-group reset-password">
+                        <label class="d-flex justify-content-center mt-1"><a href="#">ESQUECI A SENHA</a></label>
+                      </div>
+                      <div class="col-md-12 d-flex justify-content-center">
+                        <button type="submit" class="btn btn-login btn-block mt-4 w-50">ENTRAR</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-12 align-middle slogan">
+
+    <div class="header-card mt-5">
+
+      <h2>MUITO MAIS QUE UM SISTEMA</h2>
+      <h1>PARA DELIVERY</h1>
+
+      <div class="card">
+        <div class="card-body">
+          <p> <b>ACABOU</b> aqui! a necessidade de ter um sistema para cada coisa,
+            Tenha seu site de delivery próprio, e um sistema completo, que ajuda sua empresa
+            a crescer e se organizar, e além disso tenha acesso as principais integrações
+            com os maiores marketplaces do mercado, aqui você tem o <b>PODER</b>! <b>AQUI VOCÊ TEM FOODS MACHINE!</b>
+          </p>
+        </div>
+      </div>
+
+      <div class="info-apps">
+        <div class="d-flex flex-wrap justify-content-center align-items-center">
+          <div class="item m-1">
+            <img src="assets/imgs/apps/google-play.png" class="d-block" alt="Google Play" />
+          </div>
+
+          <div class="item m-1">
+            <img src="assets/imgs/apps/appstore.png" class="d-block" alt="App Store" />
+          </div>
+
+          <div class="item m-1">
+            <img src="assets/imgs/apps/web.png" class="d-block" alt="Web" />
+          </div>
+
+          <div class="item m-1">
+            <img src="assets/imgs/apps/windows.png" class="d-block" alt="Windows" />
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  </div>
+  <!-- container -->
+  <div class="col-lg-12 col-sm-12">
+    <section class="youtube-video" data-aos="fade-up">
+      <div class="content">
+        <div class="youtube-presentation">
+          <!--
+          <iframe style="display:block;" src="https://www.youtube.com/embed/i9yJD7SgwV0" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          --->
+        </div>
+      </div>
+  </div>
+  </section>
+  <div class="background-section">
+
+    <button type="button" class="btn btn-red col-sm-12 my-4" data-bs-toggle="modal" data-bs-target="#register"
+      style="transform: scale(1.05);font-size: 13px;padding: 15px 0px;width: 100%;">
+      MONTE SEU PLANO E INICIE SEU TESTE GRÁTIS DE <b>15</b> DIAS
+    </button>
+
+    <section class="perfect-for-all" data-aos="fade-up">
+
+      <div class="col-md-12 col-sm-12">
+        <div class="title d-flex justify-content-center">
+          <h2><img class="nav-item-heart" width="35" src="assets/imgs/svgs/heart.svg" /> PERFEITO PARA</h2>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-3 offset-md-4">
+        <div class="carroussel-slide p-5">
+          <div class="card perfect-for-all-card">
+            <div class="owl-carousel owl-theme carousel-perfect-for-all justify-content-center">
+
+              <div class="item d-flex align-items-center justify-content-center mt-3">
+                <img class="icon me-2" width="50" src="assets/imgs/svgs/slide/marmitaria-fit.svg" />
+                <h3>MARMITARIA</h3>
+              </div>
+
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <img class="icon me-2" width="50" src="assets/imgs/svgs/slide/restaurante.svg" />
+                <h3>RESTAURANTE</h3>
+              </div>
+
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <img class="icon me-2" width="50" src="assets/imgs/svgs/slide/pizzaria.svg" />
+                <h3>PIZZARIA</h3>
+              </div>
+
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <img class="icon me-2" src="assets/imgs/svgs/slide/hamburgueria.svg" />
+                <h3>HAMBURGUERIA</h3>
+              </div>
+
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <img class="icon me-2" src="assets/imgs/svgs/slide/churrascaria.svg" />
+                <h3>CHURRASCARIA</h3>
+              </div>
+
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <img class="icon me-2" src="assets/imgs/svgs/slide/temakeria.svg" />
+                <h3>TEMAKERIA</h3>
+              </div>
+
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <img class="icon me-2" src="assets/imgs/svgs/slide/foodtruck.svg" />
+                <h3>FOOD TRUCK</h3>
+              </div>
+
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <img class="icon me-2" src="assets/imgs/svgs/slide/churros.svg" />
+                <h3>CHURROS</h3>
+              </div>
+
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <img class="icon me-2" src="assets/imgs/svgs/slide/fastfood.svg" />
+                <h3>FAST FOOD</h3>
+              </div>
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <img class="icon me-2" src="assets/imgs/svgs/slide/sorveteria.svg" />
+                <h3>SORVETERIA</h3>
+              </div>
+
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <img class="icon me-2" src="assets/imgs/svgs/slide/acaiteria.svg" />
+                <h3>AÇAITERIA</h3>
+              </div>
+
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <img class="icon me-2" src="assets/imgs/svgs/slide/barzinho.svg" />
+                <h3>BARZINHO</h3>
+              </div>
+
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <img class="icon me-2" src="assets/imgs/svgs/slide/adegas.svg" />
+                <h3>ADEGAS</h3>
+              </div>
+
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <img class="icon me-2" src="assets/imgs/svgs/slide/choperia.svg" />
+                <h3>CHOPERIA</h3>
+              </div>
+
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <img class="icon me-2" src="assets/imgs/svgs/slide/frutos-do-mar.svg" />
+                <h3>FRUTOS DO MAR</h3>
+              </div>
+
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <img class="icon me-2" src="assets/imgs/svgs/slide/esfirraria.svg" />
+                <h3>ESFIRRARIA</h3>
+              </div>
+
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <img class="icon me-2" src="assets/imgs/svgs/slide/salgados-e-doces.svg" />
+                <h3>SALGADOS E DOCÊS</h3>
+              </div>
+
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <img class="icon me-2" src="assets/imgs/svgs/slide/hortifrute.svg" />
+                <h3>HORTIFRUTE</h3>
+              </div>
+
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <img class="icon me-2" src="assets/imgs/svgs/slide/creperia.svg" />
+                <h3>CREPERIA</h3>
+              </div>
+
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <img class="icon me-2" src="assets/imgs/svgs/slide/dogueria.svg" />
+                <h3>DOGUERIA</h3>
+              </div>
+
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <h3>E MUITO MAIS...</h3>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="steps">
+
+      <div class="container">
+
+        <div class="d-flex justify-content-start align-items-center">
+          <div class="col-md-2 mx-2">
+            <img src="assets/imgs/svgs/people-1.svg" class="people-1" />
+          </div>
+          <div class="col-md-10 mx-2">
+            <div class="d-flex align-items-center">
+              <h1 class="step-1 mx-2">1º</h1>
+              <div class="card desc-1 ms-5">
+                <div class="card-body">
+                  <h2>MONTE SEU PLANO E FAÇA O SEU CADASTRO</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+            <div class="d-flex justify-content-center align-items-center mt-5">
+
+              <div class="col-md-10 w-100 mt-4">
+                <h1 class="step-2">2º</h1>
+                <div class="card desc-2 me-2">
+                  <div class="card-body">
+                    <h2>CADASTRE <br /> SEU CARDÁPIO</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <img src="assets/imgs/svgs/people-2.svg" class="people-2 me-4" />
+              </div>
+            </div>
+
+            <div class="d-flex justify-content-start align-items-center mt-5">
+              <div class="col-md-2 mx-2">
+                <img src="assets/imgs/svgs/people-3.svg" class="people-3" />
+              </div>
+              <div class="col-md-10 mx-2">
+                <h1 class="step-3 mx-2">3º</h1>
+                <div class="d-flex align-items-center">
+                  <div class="card desc-3">
+                    <div class="card-body">
+                      <h2 class="step-desc-3">PRONTINHO,<br /> JÁ PODE RECEBER SEUS PEDIDOS E USAR SEU SISTEMA<br /> FOODS MACHINE</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+    </section>
+  </div>
+
+  <section class="show-app">
+    <div class="container">
+
+      <div class="title text-center">
+        <h3>PRECISA APENAS DE UM <b>CARDÁPIO DIGITAL</b></h3>
+        <h2><span>OU</span> UM SISTEMA COMPLETO</h2>
+        <h3 class="desc">ESTA NO LUGAR <b>CERTO</b><span>!</span></h3>
+      </div>
+
+      <div class="phone d-flex justify-content-center mt-4">
+        <img src="assets/imgs/svgs/phone.svg" />
+      </div>
+
+    </div>
+  </section>
+
+  <section class="functionalities" id="funcionalidades">
+    <div class="content">
+      <div class="button-details text-center">
+        <p class="title">CLIQUE ABAIXO PARA VER</p>
+        <button class="btn btn-red-functionalities" data-bs-toggle="collapse" href="#functionalities" role="button"
+          aria-expanded="true" aria-controls="functionalities" data-aos="fade-up">VER TODAS AS <b>
+            FUNCIONALIDADES!</b> <i class="fas fa-sort-down ml-4"></i></button>
+      </div>
+      <div class="collapse integrations" id="functionalities" style="border:none;">
+        <h4 class="text-center">INTEGRAÇÕES</h4>
+        <div class="card">
+          <div class="card-body">
+            <div class="col-md-12 col-sm-12">
+              <div class="row">
+                <div class="col-md-3 col-sm-12 text-center mb-2">
+                  <img src="assets/imgs/svgs/modules/integrations/ifood.svg" class="icon" />
+                </div>
+
+                <div class="col-md-3 col-sm-12 text-center mb-2">
+                  <img src="assets/imgs/svgs/modules/integrations/deliverymuch.svg" class="icon" />
+                </div>
+
+                <div class="col-md-3 col-sm-12 text-center mb-2">
+                  <img src="assets/imgs/svgs/modules/integrations/rappi.svg" class="icon" />
+                </div>
+
+                <div class="col-md-3 col-sm-12 text-center mb-2">
+                  <img src="assets/imgs/svgs/modules/integrations/mercadopago.svg" class="icon" />
+                </div>
+              </div>
+
+              <div class="line"></div>
+
+              <div class="col-md-12 col-sm-12 coming-soon">
+                <div class="row">
+                  <div class="col-md-3 col-sm-12 d-flex flex-wrap justify-content-center mb-2">
+                    <img src="assets/imgs/svgs/modules/integrations/99food.svg"
+                      class="icon align-middle mx-auto mt-3" />
+                    <h3>EM <b>BREVE</b></h3>
+                  </div>
+
+                  <div class="col-md-3 col-sm-12 d-flex flex-wrap justify-content-center mb-2">
+                    <img src="assets/imgs/svgs/modules/integrations/ubereatssoon.svg"
+                      class="icon align-middle mx-auto" />
+                    <h3>EM <b>BREVE</b></h3>
+                  </div>
+
+                  <div class="col-md-3 col-sm-12 d-flex flex-wrap justify-content-center mb-2">
+                    <img src="assets/imgs/svgs/modules/integrations/aiqfomesoon.svg"
+                      class="icon align-middle mx-auto" />
+                    <h3>EM <b>BREVE</b></h3>
+                  </div>
+
+                  <div class="col-md-3 col-sm-12 d-flex flex-wrap justify-content-center mb-2">
+                    <img src="assets/imgs/svgs/modules/integrations/ze-delivery.svg"
+                      class="icon align-middle mx-auto" />
+                    <h3>EM <b>BREVE</b></h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-sm-12 mt-5 benefits">
+          <div class="row equal mx-5">
+            <div class="col-md-3 mb-4 p-3">
+              <div class="card item">
+                <div class="card-body">
+                  <div class="title d-flex justify-content-center">
+                    <img src="assets/imgs/svgs/modules/my-site-delivery.svg" class="icon svg-black me-2">
+                    <h4>MEU SITE DELIVERY</h4>
+                  </div>
+                  <div class="content mt-4">
+                    <ul>
+                      <li>TENHA SEU SITE DE DELIVERY PRÓPRIO</li>
+                      <li>INTEGRADO COM WHATSAPP</li>
+                      <li>CARDÁPIO DIGITAL FÁCIL E INTUITIVO P/ SEU CLIENTE</li>
+                      <li>ATENDIMENTO MAIS RÁPIDO PARA SEU CLIENTE</li>
+                      <li>CADASTRE CATEGORIAS ILIMITADO</li>
+                      <li>CADASTRE ADICIONAIS ILIMITADO</li>
+                      <li>CADASTRE ITENS ILIMITADO</li>
+                      <li>CADASTRE FORMA DE PAGAMENTO</li>
+                      <li>RECEBA PAGAMENTO ONLINE, INTEGRAÇÃO MERCADO PAGO (NECESSÁRIO INTEGRAÇÃO MERCADO PAGO ATIVA)
+                      </li>
+                      <li>CONFIGURE ENTREGA POR RAIO DE KM</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 mb-4 p-3">
+              <div class="card item">
+                <div class="card-body">
+                  <div class="title d-flex justify-content-center">
+                    <img src="assets/imgs/svgs/modules/gestor-pedidos.svg" class="icon svg-black me-2">
+                    <h4>GESTOR DE PEDIDOS</h4>
+                  </div>
+                  <div class="content mt-4">
+                    <ul>
+                      <li>CENTRALIZE TODOS OS PEDIDO EM UM SÓ LUGAR</li>
+                      <li>AUMENTE A PRODUTIVIDADE DE SUA EMPRESA</li>
+                      <li>VEJA STATUS DE CADA PEDIDO</li>
+                      <li>ATIVE NOTIFICAÇÕES P/ QUANDO CHEGAR PEDIDOS</li>
+                      <li>ATIVE IMPRESSÃO AUTOMATICA DE PEDIDOS ACEITOS</li>
+                      <li>EDITE PEDIDOS</li>
+                      <li>CANCELE PEDIDOS</li>
+                      <li>APARÊNCIA LIMPA E FÁCIL DE UTILIZAR</li>
+                      <li>RECEBA PAGAMENTO ONLINE, INTEGRAÇÃO MERCADO PAGO (NECESSÁRIO INTEGRAÇÃO MERCADO PAGO ATIVA)
+                      </li>
+                      <li>CENTRALIZE PEDIDOS VINDO DO <b>WHATSAPP</b> E INTEGRAÇÕES COMO <b>IFOOD</b>, <b>DELIVERY
+                          MUCH</b>, <b>RAPPI</b> ETC... TUDO NA MESMA TELA!</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 mb-4 p-3">
+              <div class="card item">
+                <div class="card-body">
+                  <div class="title d-flex justify-content-center">
+                    <img src="assets/imgs/svgs/modules/venda-balcao.svg" class="icon svg-black me-2">
+                    <h4>VENDA BALCÃO</h4>
+                  </div>
+                  <div class="content mt-4">
+                    <ul>
+                      <li>FAÇA PEDIDOS RAPIDAMENTE</li>
+                      <li>ACESSO AO CARDÁPIO DIGITAL</li>
+                      <li>EDITAR PEDIDO</li>
+                      <li>CALCULO DE ENTREGA</li>
+                      <li>OPÇÃO ENTREGA GRATÍS</li>
+                      <li>PROCURAR CADASTRO DE CLIENTE</li>
+                      <li>OPÇÃO RETIRARADA NO LOCAL</li>
+                      <li>OPÇÃO DELIVERY (ENTREGA)</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 mb-4 p-3">
+              <div class="card item">
+                <div class="card-body">
+                  <div class="title d-flex justify-content-center">
+                    <img src="assets/imgs/svgs/modules/comandas-e-mesas.svg" class="icon svg-black me-2">
+                    <h4>COMANDAS E MESAS</h4>
+                  </div>
+                  <div class="content mt-4">
+                    <ul>
+                      <li>TENHA SEU SITE DE DELIVERY PRÓPRIO</li>
+                      <li>INTEGRADO COM WHATSAPP</li>
+                      <li>CARDÁPIO DIGITAL FÁCIL E INTUITIVO P/ SEU CLIENTE</li>
+                      <li>ATENDIMENTO MAIS RÁPIDO PARA SEU CLIENTE</li>
+                      <li>CADASTRE CATEGORIAS ILIMITADO</li>
+                      <li>CADASTRE ADICIONAIS ILIMITADO</li>
+                      <li>CADASTRE ITENS ILIMITADO</li>
+                      <li>CADASTRE FORMA DE PAGAMENTO</li>
+                      <li>RECEBA PAGAMENTO ONLINE, INTEGRAÇÃO MERCADO PAGO (NECESSÁRIO INTEGRAÇÃO MERCADO PAGO ATIVA)
+                      </li>
+                      <li>CONFIGURE ENTREGA POR RAIO DE KM</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 mb-4 p-3">
+              <div class="card item">
+                <div class="card-body">
+                  <div class="title d-flex justify-content-center">
+                    <img src="assets/imgs/svgs/modules/relatorio.svg" class="icon svg-black me-2">
+                    <h4>RELATÓRIO</h4>
+                  </div>
+                  <div class="content mt-4">
+                    <ul>
+                      <li>RELATÓRIO FATURAMENTO SEMANAL, MENSAL E ANUAL</li>
+                      <li>RANKING DO ITEM MAIS VENDIDO</li>
+                      <li>ACOMPANHAMENTO DE CADASTRO DE NOVOS CLIENTES</li>
+                      <li>VOLUME DE VENDAS POR DIA DE SEMANA</li>
+                      <li>VOLUME DE VENDAS POR HORAS</li>
+                      <li>GRÁFICOS PARA SABER QUEM É SEU CLIENTE</li>
+                      <li>TICKET MÉDIO DE COMPRAS DE SEUS CLIENTES</li>
+                      <li>AVISO DE ESTOQUE <span>(NECESSARIO TER MÓDULO GESTOR DE ESTOQUE ATIVO)</span></li>
+                      <li>CONFIGURE ENTREGA POR RAIO DE KM</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 mb-4 p-3">
+              <div class="card item">
+                <div class="card-body">
+                  <div class="title d-flex justify-content-center">
+                    <img src="assets/imgs/svgs/modules/gestao-de-estoque.svg" class="icon svg-black me-2">
+                    <h4>GESTÃO DE ESTOQUE</h4>
+                  </div>
+                  <div class="content mt-4">
+                    <ul>
+                      <li>CONTROLE TODOS OS ITENS E INSUMOS</li>
+                      <li>CADASTRE ITENS E INSUMOS</li>
+                      <li>EDITE ITENS E INSUMOS</li>
+                      <li>ADICIONAR ENTRADA</li>
+                      <li>RETIRADA DO ESTOQUE</li>
+                      <li>SAIBA CUSTO DE INSUMOS E ITENS PARA SABER VALOR DE VENDAS</li>
+                      <li>CRIE CATEGORIA PARA ITENS E INSUMOS</li>
+                      <li>CADASTRO DE ESTOQUE <b>ILIMITADO</b></li>
+                      <li>CADASTRE POR LT, KG E UN.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 mb-4 p-3">
+              <div class="card item">
+                <div class="card-body">
+                  <div class="title d-flex justify-content-center">
+                    <img src="assets/imgs/svgs/modules/clientes.svg" class="icon svg-black me-2">
+                    <h4>CLIENTES</h4>
+                  </div>
+                  <div class="content mt-4">
+                    <ul>
+                      <li>ACESSO A ENDEREÇO, EMAIL , WHATSPP... P/ FUTURAS CAMPANHAS DE MARKETING</li>
+                      <li>SAIBA TICKET MÉDIO QUE O CLIENTE GASTA E SEU ESTABELECIMENTO!</li>
+                      <li>ENVIE PROMOÇÕES VIA SMS <span>(NECESSÁRIO FAZER RECARGA)</span></li>
+                      <li>ADICIONAR CRÉDITO P/ CLIENTE COMPRA FIADO <span>(EM BREVE)</span></li>
+                      <li>SAIBA QUANTOS DIAS O CLIENTE NÃO FAZ NOVAS COMPRA</li>
+                      <li>VEJA SALDO DE CASHBACK DO CLIENTE <span>(NECESSÁRIO MÓDULO CASHBACK ATIVO)</span></li>
+                      <li>EXPORTAR DADOS DO CLIENTE</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 mb-4 p-3">
+              <div class="card">
+                <div class="card-body">
+                  <div class="title d-flex justify-content-center">
+                    <img src="assets/imgs/svgs/modules/nfe.svg" class="icon svg-black me-2">
+                    <h4>NF-E E SAT</h4>
+                  </div>
+                  <div class="content mt-4">
+                    <ul>
+                      <li>EMITA NOTA FISCAL DE UMA FORMA RÁPIDA</li>
+                      <li>TENHA RELATÓRIO DE NOTAS EMITIDAS</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card mt-4 p-3">
+                <div class="card-body">
+                  <div class="title d-flex justify-content-center">
+                    <img src="assets/imgs/svgs/modules/agendamento.svg" class="icon svg-black me-2">
+                    <h4>AGENDAMENTO</h4>
+                  </div>
+                  <div class="content mt-4">
+                    <ul>
+                      <li>RECEBA AGENDAMENTO ATÉ MESMO QUANTO ESTIVER FECHADO!</li>
+                      <li>RECEBA NOTIFICAÇÃO, PARA COMEÇAR A PRODUÇÃO DO ITEM AGENDADO</li>
+                      <li>RECEBA AGENDAMENTOS PARA HORAS CONFIGURADAS E ATÉ MESMO PARA OUTROS DIAS</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 mb-4 p-3">
+              <div class="card item">
+                <div class="card-body">
+                  <div class="title d-flex justify-content-center">
+                    <img src="assets/imgs/svgs/modules/gestor-financeiro.svg" class="icon svg-black me-2">
+                    <h4>GESTOR FINANCEIRO</h4>
+                  </div>
+                  <div class="content mt-4">
+                    <ul>
+                      <li>ABRIR CAIXA</li>
+                      <li>FECHAR CAIXA</li>
+                      <li>INFORMAR ENTRADA E SAIDA</li>
+                      <li>ITENS OU INSUMOS QUE PRECISA DE COMPRA (NECESSÁRIO MÓDULO GESTOR DE ESTOQUE ATIVO)</li>
+                      <li>ACOMPANHAMENTO DE CLIENTES QUE TEM CRÉDITO PARA COMPRA NO FIADO</li>
+                      <li>PAGAMENTO DE CONTAS, FUNCIONÁRIOS, FREELANCERS E ENTREGADORES.</li>
+                      <li>HISTÓRICO FINANCEIRO</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 mb-4 p-3">
+              <div class="card item">
+                <div class="card-body">
+                  <div class="title d-flex justify-content-center">
+                    <img src="assets/imgs/svgs/modules/monitor.svg" class="icon svg-black me-2">
+                    <h4>MONITOR PREPARO</h4>
+                  </div>
+                  <div class="content mt-4">
+                    <ul>
+                      <li>AUTOMATIZE AINDA MAIS SEU ESTABELECIMENTO COM PEDIDO ATUALIZADOS DIRETAMENTE DA COZINHA</li>
+                      <li>ATUALIZAÇÃO AUTOMATICA DE STATUS DE PEDIDO</li>
+                      <li>MELHOR ORGANIZAÇÃO NA COZINHA</li>
+                      <li>VER DETALHES DO PEDIDO</li>
+                      <li>ADICIONAR OPÇÃO DE MODO DE PREPARO</li>
+                      <li>HISTORICO DE TEMPO QUE LEVOU PARA SER PREPARADO</li>
+                      <li>LOGIN DE COZINHEIRO</li>
+                      <li>MARCAR ITENS FEITOS COM OK</li>
+                      <li>VER A QUANTO TEMPO CHEGOU O PEDIDO</li>
+                      <li>ORGANIZAR PEDIDO POR ORDEM DE CHEGADA</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 mb-4 p-3">
+              <div class="card item">
+                <div class="card-body">
+                  <div class="title d-flex justify-content-center">
+                    <img src="assets/imgs/svgs/modules/impulsionamento.svg" class="icon svg-black me-2">
+                    <h4>IMPULSIONAMENTO TURBO</h4>
+                  </div>
+                  <div class="content mt-4">
+                    <ul>
+                      <li>FAÇA IMPULSIONAMENTO DE PROMOÇÕES</li>
+                      <li>FAÇA UM IMPULSIONAMENTO EM 3 PASSOS</li>
+                      <li>INTELIGÊNCIA ARTIFICIAL PARA ESCOLHER MELHOR CONFIGURAÇÃO DE CAMPANHA!</li>
+                      <li>DEFINA VALOR A SER INVESTIDO PARA CAMPANHA</li>
+                      <li>NECESSÁRIO CONTA E CRÉDITO NO FACEBOOK</li>
+                      <li>NECESSARIO MÓDULO PROMOÇÕES ATIVO!</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 mb-4 p-3">
+              <div class="card item">
+                <div class="card-body">
+                  <div class="title d-flex justify-content-center">
+                    <img src="assets/imgs/svgs/modules/entregador.svg" class="icon svg-black me-2">
+                    <h4>ENTREGADOR</h4>
+                  </div>
+                  <div class="content mt-4">
+                    <ul>
+                      <li>REGISTRE ENTREGADORES</li>
+                      <li>CONFIGURE FORMA DE PAGAMENTO P/ ENTREGADOR</li>
+                      <li>HISTORICO DE GANHOS DO ENTREGADOR</li>
+                      <li>EDITE OU EXCLUA ENTREGADORES</li>
+                      <li>ATIVAR E DESATIVAR ENTREGADOR</li>
+                      <li>VEJA GANHOS DIARIA, SEMANAL E MENSAL</li>
+                      <li>VEJA VALORES EM ABERTO</li>
+                      <li>BAIXA PAGAMENTO</li>
+                      <li>IMPRESSÃO OU COMPARTILHAMENTO DE RECIBO</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 mb-4 p-3">
+              <div class="card item">
+                <div class="card-body">
+                  <div class="title d-flex justify-content-center">
+                    <img src="assets/imgs/svgs/modules/cashback.svg" class="icon svg-black me-2">
+                    <h4>CASHBACK</h4>
+                  </div>
+                  <div class="content mt-4">
+                    <ul>
+                      <li>AUMENTE A FIDELIDADE DE SEUS CLIENTES</li>
+                      <li>CONFIGURE VALOR <b>"x"</b> GANHA <b>"x"</b> EM PONTOS</li>
+                      <li>VEJA QUANTIADE DE CLIENTE USANDO CASHBACK</li>
+                      <li>VEJA OS ÚLTIMOS CLIENTES QUE ULTILIZARAM</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 mb-4 p-3">
+              <div class="card item">
+                <div class="card-body">
+                  <div class="title d-flex justify-content-center">
+                    <img src="assets/imgs/svgs/modules/cupons.svg" class="icon svg-black me-2">
+                    <h4>CUPOM DE DESCONTO</h4>
+                  </div>
+                  <div class="content mt-4">
+                    <ul>
+                      <li>AUMENTE A RECOMPRA DE SEUS CLIENTES</li>
+                      <li>ENVIE CUPOM DE DESCONTO</li>
+                      <li>ENVIE CUPOM DE DESCONTO NO CUPOM NÃO FISCAL</li>
+                      <li>CUPOM COM DATA DE VALIDADE</li>
+                      <li>CUPOM EM FORMADO POPUP</li>
+                      <li>DESCONTO EM PORCENTAGEM</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 mb-4 p-3">
+              <div class="card item">
+                <div class="card-body">
+                  <div class="title d-flex justify-content-center">
+                    <img src="assets/imgs/svgs/modules/sms.svg" class="icon svg-black me-2">
+                    <h4>SMS MARKETING</h4>
+                  </div>
+                  <div class="content mt-4">
+                    <ul>
+                      <li>AUMENTE DESEJO DE COMPRA DO SEUS CLIENTES ENVIANDO SMS MARKETING!</li>
+                      <li>ENVIE O LINK DO SEU CARDÁPIO</li>
+                      <li>ENVIE PROMOÇÕES</li>
+                      <li>ENVIE CUPOM DE DESCONTO</li>
+                      <li>MENSAGENS SMS POR 0,18 CENTAVOS O ENVIO</li>
+                      <li>CADASTRE CUPONS ILIMITADOS</li>
+                      <li>ATIVE E DESATIVE CUPONS</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 mb-4 p-3">
+              <div class="card item">
+                <div class="card-body">
+                  <div class="title d-flex justify-content-center">
+                    <img src="assets/imgs/svgs/modules/promocoes.svg" class="icon svg-black me-2">
+                    <h4>PROMOÇÕES</h4>
+                  </div>
+                  <div class="content mt-4">
+                    <ul>
+                      <li>AUMENTE AINDA TICKET DE COMPRA DO SEUS CLIENTES MOSTRANDO PROMOÇÕES EM DESTAQUE</li>
+                      <li>CONFIGURE QUANTIDADE DE ITENS DE CADA PROMOÇÃO</li>
+                      <li>PROMOÇÃO DE DESCONTO %</li>
+                      <li>PROMOÇÃO ENTREGA GRÁTIS</li>
+                      <li>PROMOÇÃO COMPRE E GANHE</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-md-3 mb-4 p-3">
+              <div class="card item">
+                <div class="card-body">
+                  <div class="title d-flex justify-content-center">
+                    <img src="assets/imgs/svgs/modules/fiscais.svg" class="icon svg-black me-2">
+                    <h4>INTEGRAÇÕES FISICAS</h4>
+                  </div>
+                  <div class="content mt-4">
+                    <ul>
+                      <li>APARELHO DE EMISSÃO DE NF-E E SAT</li>
+                      <li>INTEGRAÇÃO C/ BALANÇA</li>
+                      <li>PAINEL DE SENHA</li>
+                      <li>INTEGRAÇÃO C/ LEITOR CODIGO DE BARRAS</li>
+                      <li>COMPATIBILIDAE MONITOR TOUCH</li>
+                      <li>TOTEM DE AUTO ATENDIMENTO</li>
+                      <li>ABERTURA CAIXA (CAIXA FISICO)</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section class="mount-your-plan">
+
+    <div class="brands d-flex justify-content-center" data-aos="fade-up" data-aos-duration="7000">
+
+      <div class="ifood" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="7000">
+        <img src="assets/imgs/svgs/modules/integrations/ifood.svg" />
+      </div>
+      <div class="aiqfome" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="7000">
+        <img src="assets/imgs/svgs/modules/integrations/aiqfome.svg" />
+      </div>
+      <div class="deliverymuch" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="7000">
+        <img src="assets/imgs/svgs/modules/integrations/deliverymuch.svg" />
+      </div>
+      <div class="ubereats" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="7000">
+        <img src="assets/imgs/svgs/modules/integrations/ubereats.svg" />
+      </div>
+      <div class="rappi" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="7000">
+        <img src="assets/imgs/svgs/modules/integrations/rappi.svg" />
+      </div>
+
+      <img src="assets/imgs/brands.svg" />
+
+    </div>
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-body text-center">
+          <i class="fas fa-chevron-down fa-2x" style="color: #E5E5E5;"></i>
+
+          <div class="content">
+            <div class="description col-md-8 offset-md-2">
+              <h3><span>AQUI NA</span> FOODS MACHINE VOCÊ TEM O PODER, AUMENTE SEU PLANO OU DIMINUA DE ACORDO COM SUA
+                NECESSIDADE!</h3>
+              <span class="tiny">ESTAMOS AQUI PARA TE AJUDAR A CRESCER</span>
+            </div>
+
+            <div class="col-md-12 col-sm-12 mount" data-aos="fade-up">
+              <img src="assets/imgs/svgs/mount-your-plan.svg" class="mount-image" />
+              <div class="box-mount">
+                <div class="card gradient" id="monte-seu-plano">
+
+                  <img src="assets/imgs/svgs/gotas.svg" class="gotas">
+                  <h2>MONTE</h2>
+
+                  <div class="d-flex justify-content-center">
+                    <h1>SEU PLANO</h1>
+                    <img class="heart" src="assets/imgs/svgs/heart.svg" />
+                  </div>
+                  <div class="button">
+                    <button type="button" class="btn btn-white w-100" data-bs-toggle="modal"
+                      data-bs-target="#register">CLIQUE AQUI</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-12 sell-showcase">
+            <h4 class="text-center">MÓDULOS SELECIONADO</h4>
+            <div class="d-flex flex-wrap justify-content-center">
+              <div class="col-md-12 mb-4 container-black">
+                <div class="card black">
+                  <div class="card-body">
+                    <div class="discount">
+                      <div class="col-md-12 col-sm-12">
+                        <b>TOTAL APÓS 3 MESES</b>
+                      </div>
+
+                      <div class="col-md-12 col-sm-12 d-flex flex-wrap">
+                        <div class="line-discount" style="color: red;text-decoration:line-through">
+                          <h1 style="color: #fff;">R$39,90 <span>MENSAIS</span></h1>
+                        </div>
+                        <!-- <span>Mensais</span> -->
+                      </div>
+
+                    </div>
+
+                    <div class="col-md-12">
+                      <p class="text-white slashes">
+                        -----------------------</p>
+                    </div>
+
+                    <div class="price">
+                      <div class="col-md-12 col-sm-12">
+                        <h1>R$33,91 <span>MENSAIS</span></h1>
+                        <h2>POR 3 MESES</h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="cian container p-3">
+              <div class="row">
+                <div class="col-5">
+                  <h2>TESTE DE 15 DIAS GRÁTIS</h2>
+                </div>
+                <div class="col-1 d-flex align-items-center justify-content-center">
+                  <h1>+</h1>
+                </div>
+                <div class="col-6">
+                  <h1>15% OFF</h1>
+                  <span>POR <b>3</b> MESES</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="start-act-showcase">
+            <div class="col-md-12 col-sm-12 mt-4"></div>
+            <button class="btn btn-red" data-bs-toggle="modal" data-bs-target="#register">
+              FINALIZAR CADASTRO E INICIAR <b>TESTE 15 DIAS</b> GRÁTIS
+            </button>
+
+            <div class="col-md-12 col-sm-12 advertising mt-4">
+              <span>Fique tranquilo, dentro do período de teste não precisa pagar boleto ou adicionar cartão</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="notebook-art">
+    <div class="container text-center">
+
+      <div class="title">
+        <h1>TENHA ACESSO AGORA</h1>
+        <h2>A ESSA PODEROSA FERRAMENTA</h2>
+        <h3>E FAÇA SUA EMPRESA CRESCER.</h3>
+
+        <div class="notebook-bg d-flex justify-content-center">
+          <img src="assets/imgs/notebook.png" />
+        </div>
+
+        <button type="button" class="btn btn-red-glow mt-3" data-bs-toggle="modal" data-bs-target="#register">INICIE
+          SEU TESTE GRÁTIS DE <b>15</b> DIAS</button>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="clients">
+    <h3 class="text-center mb-5 mt-5">ALGUNS DE NOSSOS CLIENTES</h3>
+    <div class="row owl-carousel owl-theme clients-carousel">
+      <div class="item col">
+        <div class="card d-flex justify-content-center">
+          <img src="assets/imgs/clients/super-gulosao.png" />
+        </div>
+      </div>
+
+      <div class="item col">
+        <div class="card d-flex justify-content-center">
+          <img src="assets/imgs/clients/acai.svg" />
+        </div>
+      </div>
+      <div class="item col">
+        <div class="card d-flex justify-content-center">
+          <img src="assets/imgs/clients/point-acai.png" />
+        </div>
+      </div>
+
+      <div class="item col">
+        <div class="card d-flex justify-content-center">
+          <img src="assets/imgs/clients/brutus.png" />
+        </div>
+      </div>
+
+      <div class="item col">
+        <div class="card d-flex justify-content-center">
+          <img src="assets/imgs/clients/cupcake-karen.png" />
+        </div>
+      </div>
+
+
+    </div>
+    </div>
+  </section>
+
+  <section class="main-questions">
+
+    <div class="container">
+
+      <div class="title">
+        <h1 class="text-center">PRINCIPAIS <b>PERGUNTAS</b></h1>
+      </div>
+
+      <div class="col-md-8 offset-md-2">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="text-center"><a style="text-decoration: none;color: black;" data-bs-toggle="collapse"
+                href="#collapseOqueEFoodMachines" role="button" aria-expanded="false"
+                aria-controls="collapseOqueEFoodMachines">O que é a Foods Machine ?</a></h2>
+          </div>
+        </div>
+
+        <div class="desc" id="collapseOqueEFoodMachines">
+          <p>
+            Somos especializados em sistema completo para delivery e comércios físicos, que precisam aumentar sua
+            produtividade e economia, com Módulos desde cardápio digital, ao sistema mais moderno e completo... contando
+            com cardápio digital, com qr code, gestão de estoque, gestão financeira, comanda digital, controle de
+            acessos de funcionários, gestão de clientes, gestor de pedidos, integração com WhatsApp, link próprio para
+            divulgação, e muito mais...
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-8 offset-md-2 mt-4">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="text-center"><a style="text-decoration: none;color: black;" data-bs-toggle="collapse"
+                href="#collapseComoEFeitoOSuporte" role="button" aria-expanded="false"
+                aria-controls="collapseComoEFeitoOSuporte">Como é feito o suporte ?</a></h2>
+          </div>
+        </div>
+
+        <div class="desc collapse" id="collapseComoEFeitoOSuporte">
+          <p>
+            Nosso suporte é feito via WhatsApp, para facilitar ainda mais a vida de nossos clientes, caso precise temos
+            suporte via atendimento remoto, então fique tranquilo, pois aqui na foods machine você tem o melhor
+            atendimento e o melhor suporte.
+          </p>
+        </div>
+
+      </div>
+
+      <div class="col-md-8 offset-md-2 mt-4">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="text-center"><a style="text-decoration: none;color: black;" data-bs-toggle="collapse"
+                href="#collapseContratoFidelidade" role="button" aria-expanded="false"
+                aria-controls="collapseContratoFidelidade">O contrato tem fidelidade ?</a></h2>
+          </div>
+        </div>
+
+        <div class="desc collapse" id="collapseContratoFidelidade">
+          <p>
+            Não, você só continua com a gente se realmente quiser, nosso principal motivo é fazer com que você tenha
+            todas as ferramentas necessárias para crescer ! E se caso por algum motivo queira diminuir ou aumentar seus
+            módulos nossa plataforma é flexível, para poder te ajudar em casa momento que estiver, sendo ele quando quer
+            economizar ou no momento de ampliar sua empresa.
+          </p>
+        </div>
+
+      </div>
+
+      <div class="col-md-8 offset-md-2 mt-4">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="text-center"><a style="text-decoration: none;color: black;" data-bs-toggle="collapse"
+                href="#collapseComoDesativoFuncionalidades" role="button" aria-expanded="false"
+                aria-controls="collapseComoDesativoFuncionalidades">Como ativo ou desativo Funcionalidades?</a></h2>
+          </div>
+        </div>
+
+        <div class="desc collapse" id="collapseComoDesativoFuncionalidades">
+          <p>
+            É bem simples, na área "meu negócio" dentro do sistema foods machine, você pode ver os módulos ativos, e
+            assim pode aumentar ou diminuir seu plano, aqui você tem o poder para decidir oque é melhor para sua empresa
+            e para você.
+          </p>
+        </div>
+
+      </div>
+
+      <div class="col-md-8 offset-md-2 mt-4">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="text-center"><a style="text-decoration: none;color: black;" data-bs-toggle="collapse"
+                href="#collapseEntregas" role="button" aria-expanded="false" aria-controls="collapseEntregas">A Foods
+                machine faz entregas ?</a></h2>
+          </div>
+        </div>
+
+        <div class="desc collapse" id="collapseEntregas">
+          <p>
+            Não, porem temos o módulo de entregador, que nele você pode configurar como quer pagar seus entregadores e
+            ter controle de todas as entregas e valores que cada entregador fez.
+          </p>
+        </div>
+
+      </div>
+
+      <div class="col-md-8 offset-md-2 mt-4">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="text-center"><a style="text-decoration: none;color: black;" data-bs-toggle="collapse"
+                href="#collapsePagamentoIntegrado" role="button" aria-expanded="false"
+                aria-controls="collapsePagamentoIntegrado">Tem algum meio de pagamento integrado ?</a></h2>
+          </div>
+        </div>
+
+        <div class="desc collapse" id="collapsePagamentoIntegrado">
+          <p>
+            Sim, temos módulo de integração com mercado pago, que te proporciona recebimento de seus pedidos online, e
+            com toda a segurança para você e seus clientes.
+          </p>
+        </div>
+
+      </div>
+
+      <div class="col-md-8 offset-md-2 mt-4">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="text-center"><a style="text-decoration: none;color: black;" data-bs-toggle="collapse"
+                href="#collapseClienteBaixarAplicativo" role="button" aria-expanded="false"
+                aria-controls="collapseClienteBaixarAplicativo">Meu cliente precisa baixar algum aplicativo ?</a></h2>
+          </div>
+        </div>
+
+        <div class="desc collapse" id="collapseClienteBaixarAplicativo">
+          <p>
+            Não, nossa ideia é deixar o mais pratico possível para você e seu cliente. Disponibilizamos um link
+            especifico para seu comercio, e poderá compartilhar esse link por suas redes sociais, e se caso quiser
+            poderá também ter um aplicativo, entre em contato e saiba mais.
+          </p>
+        </div>
+
+      </div>
+  </section>
+
+  <footer class="footer" class="svg-gray">
+    <div class="content">
+      <div class="d-flex flex-wrap justify-content-center">
+
+        <div class="col-md-4 col-sm-12 text-center">
+          <img class="nav-item-heart" src="assets/imgs/svgs/logo-gray.svg" />
+        </div>
+
+        <div class="col-md-4 col-sm-12 text-center">
+          <p class="mt-5">FEITO COM <img class="nav-item-heart" src="assets/imgs/svgs/heart.svg" /> EM <b>CAMPINAS</b>
+          </p>
+        </div>
+
+      </div>
+
+      <div class="footer-details mt-5">
+        <div class="d-flex flex-wrap justify-content-center">
+          <div class="col-md-3 socials mb-5">
+            <p class="gray">NOS ACOMPANHE NAS REDES SOCIAIS</p>
+            <div class="d-flex flex-wrap justify-content-center align-items-center">
+              <div class="icon mx-2">
+                <img src="assets/imgs/svgs/social/whatsapp.svg" />
+              </div>
+
+              <div class="icon mx-2">
+                <img src="assets/imgs/svgs/social/youtube.svg" />
+              </div>
+
+              <div class="icon mx-2">
+                <img src="assets/imgs/svgs/social/facebook.svg" />
+              </div>
+
+              <div class="icon mx-2">
+                <img src="assets/imgs/svgs/social/instagram.svg" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-5">
+            <p class="gray">FALE COM A GENTE</p>
+            <p class="small">contato@foodsmachine.com.br</p>
+          </div>
+
+          <div class="col-md-3 mb-5">
+            <p class="gray">WHATSAPP E ATENDIMENTO</p>
+            <p class="small">19 98445-1400</p>
+          </div>
+
+          <div class="col-md-3 mb-4">
+            <p class="gray">HORÁRIOS DE FUNCIONAMENTO</p>
+            <p class="small-hours">Segunda a Sexta das 9:00 as 21:00<br>
+              Sábado e feriados das 10:00 as 21:00
+            </p>
+          </div>
+
+          <div class="col-md-12 col-sm-12 mt-5 mb-5">
+            <section class="help-me" id="support">
+              <div class="container">
+                <div class="col-md-12">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="col-md-12 mt-5">
+                        <div class="d-flex justify-content-center">
+                          <buton class="btn btn-red-help"><b>PRECISO DE AJUDA</b> ENTRE EM CONTATO COMIGO POR WHATSAPP
+                          </buton>
+                        </div>
+
+                        <div class="col-md-12 offset-md-2 mt-3" style="height: 100%;">
+                          <form>
+                              <div class="col-md-12">
+                                <div class="form-group text-center mb-2">
+                                  <label for="exampleInputEmail1">NOME</label>
+                                  <input type="text" class="form-control" aria-describedby="emailHelp"
+                                    placeholder="DIGITE SEU NOME AQUI">
+                                </div>
+                                <div class="form-group text-center mb-2">
+                                  <label for="exampleInputPassword1" class="text-center">DIGITE SEU WHATSAPP</label>
+                                  <input type="text" class="form-control" placeholder="(00)0000-0000">
+                                </div>
+                              <div class="col-md-4 d-flex align-items-center justify-content-end">
+                                <button type="submit" class="btn btn-white mt-4" width="100%">ENVIAR</button>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        </section>
+      </div>
+    </div>
+    </div>
+    </div>
+  </footer>
+  <!-- container -->
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/owl/owl.carousel.min.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

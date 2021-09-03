@@ -1,0 +1,39 @@
+.main-questions {
+
+    margin-top: 0px;
+    padding-bottom: 240px;
+
+    .title {
+        margin-top: 17px;
+        color: #000;
+        font-family: "FuturaBk", Arial, sans-serif;
+        b {
+            font-family: "TheFontBold", Arial, sans-serif;
+        }
+    }
+
+    .card {
+        border-radius: 35px;
+        background-color: #FBFBFB;
+        border: none;
+        -webkit-box-shadow: -2px 5px 9px -4px #a79696;
+        box-shadow: -2px 5px 9px -4px #a79696;
+        h2 {
+            font-size: 18px;
+            font-family: "FuturaBk", Arial, sans-serif;
+            font-weight: bold;
+        }
+    }
+
+    .desc {
+        margin: 0px 40px;
+        padding:  20px 20px;
+        background-color: #fff;
+        border-radius: 0px 0px 35px 35px;
+        
+        p {
+            font-size: 15px;
+            font-family: "Gothic", Arial, sans-serif;
+        }
+    }
+}

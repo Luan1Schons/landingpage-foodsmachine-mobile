@@ -1,0 +1,42 @@
+.header-card { 
+
+    margin: auto;
+    font-family: 'TheFontBold', Arial, sans-serif;
+    text-align: center;
+    padding: 10px;
+    h2 {
+        color: #fff;
+        font-size: #{"min(36px, 7vw)"};
+    }
+
+    h1 {
+        color: #fff;
+        font-size: #{"min(56px, 11vw)"};;
+    }
+
+    .card {
+        background-color: #D9D2D6;
+        border: solid 4px #fff;
+        border-radius: 25px;
+        -webkit-box-shadow: 0px 1px 9px -4px #000000;
+        box-shadow: 0px 1px 9px -4px #000000;
+
+        p {
+            font-size: 19px;
+            font-family: arial,sans-serif;
+            b {
+                font-family: 'TheFontBold', Arial, sans-serif;
+            }
+        }
+    }
+
+    .info-apps { 
+
+        margin-top: 15px;
+
+        img {
+            height: 29px;
+            width: 80px;
+        }
+    }
+}

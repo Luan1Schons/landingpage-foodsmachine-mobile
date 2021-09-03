@@ -1,0 +1,340 @@
+.register {
+    z-index: 9998;
+    .modal-dialog {
+        .modal-content {
+            border-radius: 45px;
+
+            .modal-header {
+                display: flex;
+                flex-shrink: 0;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0rem 0rem;
+                border-bottom: none;
+                border-top-left-radius: calc(0.3rem - 1px);
+                border-top-right-radius: calc(0.3rem - 1px);
+
+                .btn-close {
+                    z-index: 9999;
+                    background-color: white;
+                    padding: 30px;
+                    border-radius: 45px;
+                    opacity: initial;
+                    -webkit-box-shadow: -1px 6px 10px 1px #00000029;
+                    box-shadow: -1px 6px 10px 1px #00000029;
+                }
+            }
+
+            .modal-body {
+                .modal-title {
+                    font-size: 20px;
+                    font-family: "FuturaBk", Arial, sans-serif;
+                    span {
+                        font-family: "TheFontBold", Arial, sans-serif;
+                    }
+                }
+
+                .container {
+                    padding: 0px 50px;
+                }
+
+                .line {
+                    margin: 80px 0px 80px 0px;
+                    border: solid 2px #f7f7f7;
+                }
+
+                .form-label {
+                    font-size: 17px;
+                    font-family: "FuturaBk", Arial, sans-serif;
+                }
+
+                .form-control {
+                    background-color: #fff;
+                    border: none;
+                    padding: 0px;
+                    border-radius: 35px;
+                    -webkit-box-shadow: -1px 6px 10px 1px #00000029;
+                    box-shadow: -1px 6px 10px 1px #00000029;
+                }
+
+                .modules-selected {
+                    .card {
+                        height: 100%;
+                        width: 100%;
+                        border-radius: 45px;
+                        border: solid 3px #fff;
+                        background-color: #fff;
+                        webkit-box-shadow: 0px 1px 9px -4px #a79696;
+                        box-shadow: -5px 4px 9px -4px #a79696;
+                    }
+                    .selected-modules {
+                        background-color: #000000;
+                        padding: 10px 40px;
+                        border-radius: 35px;
+                        font-size: 24px;
+                        color: #fff;
+                        font-family: "FuturaBk", Arial, sans-serif;
+                        b {
+                            font-family: "TheFontBold", Arial, sans-serif;
+                        }
+                    }
+
+                    .add-modules {
+                        margin-top: 80px;
+                        margin-bottom: 60px;
+
+                        .item {
+                            padding: 10px;
+                        }
+                        .ticket {
+                            padding: 20px 0px;
+
+                            .card {
+                                border-radius: 0px 25px 25px 0px;
+                                border: none;
+                                background-color: #eeecec;
+                                -webkit-box-shadow: none;
+                                box-shadow: none;
+                                .card-body {
+                                    padding: 5px;
+                                }
+                            }
+
+                            h3 {
+                                font-family: "TheFontBold", Arial, sans-serif;
+                                font-size: 19px;
+                                color: #8a8a8a;
+                            }
+                        }
+
+                        .card {
+                            border-radius: 25px;
+                            border: solid 3px #fff;
+                            background-color: #fff;
+                            webkit-box-shadow: -2px 5px 9px -4px #a79696;
+                            box-shadow: -2px 5px 9px -4px #a79696;
+                            .card-body {
+                                padding: 0px;
+                            }
+                        }
+
+                        img {
+                            width: 50px;
+                        }
+                        h3 {
+                            font-family: "TheFontBold", Arial, sans-serif;
+                            font-size: 22px;
+                        }
+
+                        .extra-actions {
+                            margin-top: 150px;
+
+                            h3 {
+                                font-size: 14px;
+                                color: #c9c9c9;
+                                font-family: "FuturaBk", Arial, sans-serif;
+                            }
+
+                            .line {
+                                border: solid 2px #f1f1f1;
+                                margin: 0px 0px 30px 0px;
+                            }
+
+                            .btn {
+                                width: 100% !important;
+                                padding: 15px !important;
+                                font-size: 18px;
+                                border-radius: 35px;
+                                font-family: "FuturaBk", Arial, sans-serif;
+                                b {
+                                    font-size: 18px;
+                                    font-family: "TheFontBold", Arial, sans-serif;
+                                }
+                            }
+
+                            .btn-white {
+                                -webkit-box-shadow: inset 0px 1px 5px -4px #000000;
+                                box-shadow: inset 0px 3px 5px -4px #000000;
+                                -webkit-box-shadow: 0px 1px 7px -4px #000000;
+                                box-shadow: 0px 1px 7px -4px #000000;
+                                border: solid 3px #f9f9f9;
+                                b {
+                                    color: #fe1846;
+                                }
+                            }
+
+                            .btn-dark {
+                                -webkit-box-shadow: inset 0px 1px 5px -4px #000000;
+                                box-shadow: inset 0px 3px 5px -4px #000000;
+                                -webkit-box-shadow: 0px 1px 7px -4px #000000;
+                                box-shadow: 0px 1px 7px -4px #000000;
+                                border: solid 3px #000000;
+                                background-color: #000000;
+                                font-size: 14px;
+                                font-family: "TheFontBold", Arial, sans-serif;
+                                color: #fff;
+                                b {
+                                    font-size: 14px;
+                                    color: #fff;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .sell-showcase {
+                @media (max-width: 1324px) {
+                    padding: 0px 10vw;
+                }
+
+                @media (max-width: 900px) {
+                    padding: 0px;
+                }
+
+                @media (max-width: 768px) {
+                    padding: 0px;
+                }
+
+                .card {
+                    border-radius: 45px;
+                    height: 100%;
+                }
+                .green {
+                    background-color: #0bd877;
+                    border: solid 3px #0bd877;
+                    padding: 15px 35px;
+                    text-align: center;
+                    h1 {
+                        @media (max-width: 1324px) {
+                            font-size: #{"min(30px, 15vw)"};
+                        }
+
+                        @media (max-width: 768px) {
+                            font-size: #{"min(30px, 10vw)"};
+                        }
+
+                        font-size: #{"min(47px, 17vw)"};
+                        font-family: "TheFontBold", Arial, sans-serif;
+                    }
+
+                    h2 {
+                        font-size: #{"min(67px, 14vw)"};
+                        font-family: "TheFontBold", Arial, sans-serif;
+                    }
+                    p {
+                        font-family: "FuturaBk", Arial, sans-serif;
+                        font-size: #{"min(40px, 10vw)"};
+                    }
+                }
+
+                .black {
+                    background: rgb(82, 13, 94);
+                    background: linear-gradient(
+                        31deg,
+                        rgba(82, 13, 94, 1) 15%,
+                        rgba(72, 47, 113, 1) 32%,
+                        rgba(32, 187, 189, 1) 100%
+                    );
+                    border: solid 5px #2b98aa;
+                    -webkit-box-shadow: 0px 1px 8px -4px #000000;
+                    box-shadow: 0px 1px 8px -4px #000000;
+                    padding: 25px 55px;
+        
+        
+                    .slashes {
+                        @media (max-width: 768px) {
+                            display: none;
+                        }
+                        
+                        @media (max-width: 1324px) {
+                            display: none;
+                        }
+                    }
+        
+                    h4 {
+                        font-size: #{"min(22px, 4vw)"};
+                        font-family: "TheFontBold", Arial, sans-serif;
+                        color: #fff;
+                    }
+                    .discount {
+                        text-align: left;
+                        font-family: "TheFontBold", Arial, sans-serif;
+                        color: #fff;
+                        h1 {
+                            @media (max-width: 1324px) {
+                                font-size: #{"min(40px, 7vw)"};
+                            }
+        
+                            @media (max-width: 768px) {
+                                font-size: #{"min(30px, 6vw)"};
+                            }
+        
+                            font-size: #{"min(68px, 15vw)"};
+                        }
+        
+                        span {
+                            font-size: #{"min(17px, 12vw)"};
+                            position: absolute;
+                            margin-top: 2.2rem;
+                            font-size: 31px;
+                            float: right;
+                            margin-left: 10px;
+                            color: #fff;
+                        }
+                        b {
+                            font-size: 25px;
+                        }
+                    }
+        
+                    .price {
+                        text-align: left;
+                        font-family: "TheFontBold", Arial, sans-serif;
+                        color: #fff;
+        
+                        h1 {
+                            @media (max-width: 1324px) {
+                                font-size: #{"min(60px, 12vw)"};
+                            }
+        
+                            @media (max-width: 768px) {
+                                font-size: #{"min(40px, 8vw)"};
+                            }
+        
+                            color: #0ad875;
+                            font-size: #{"min(110px, 14vw)"};
+                        }
+        
+                        h2 {
+                            @media (max-width: 1324px) {
+                                text-align: center;
+                                font-size: #{"min(30px, 10vw)"};
+                            }
+        
+                            @media (max-width: 768px) {
+                                text-align: center;
+                                font-size: #{"min(30px, 10vw)"};
+                            }
+        
+                            font-size: #{"min(80px, 15vw)"};
+                            font-family: "FuturaBk", Arial, sans-serif;
+                        }
+        
+                        span {
+                            position: absolute;
+                            margin-top: 4.5rem;
+                            font-size: 31px;
+                            float: right;
+                            color: #fff;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+
+            .payments-method {
+                text-align: center;
+            }
+        }
+    }
+}

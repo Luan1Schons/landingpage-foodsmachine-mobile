@@ -1,0 +1,541 @@
+.mount-your-plan {
+    margin-top: 150px;
+
+    .card-body {
+        padding: 0px;
+    }
+
+    .hideBrands {
+        display: none !important;
+    }
+
+    .brands {
+        margin-bottom: -7rem;
+
+        img {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+
+        .ifood {
+            position: absolute;
+            margin: 75px 580px 0px 0px;
+            img {
+                width: 90px;
+                height: 93px;
+            }
+        }
+
+        .aiqfome {
+            position: absolute;
+            margin: 0px 0px 0px 0px;
+            img {
+                width: 30px;
+                height: 100%;
+                transform: rotate(-14deg);
+                transform-origin: left top 0;
+            }
+        }
+
+        .deliverymuch {
+            position: absolute;
+            margin: 0px 0px 0px 0px;
+            img {
+                width: 30px;
+                height: 100%;
+                transform: rotate(2deg);
+                transform-origin: left top 0;
+            }
+        }
+
+        .ubereats {
+            position: absolute;
+            margin: 0px 0px 0px 0px;
+            img {
+                width: 30px;
+                height: 100%;
+                transform: rotate(8deg);
+                transform-origin: left top 0;
+            }
+        }
+
+        .rappi {
+            position: absolute;
+            margin: 0px 0px 0px 0px;
+            img {
+                width: 30px;
+                height: 100%;
+                transform: rotate(6deg);
+                transform-origin: left top 0;
+            }
+        }
+    }
+
+    .card {
+        background-color: #fcfcfc;
+        border: solid 8px #fff;
+        border-radius: 35px;
+        -webkit-box-shadow: 0px 1px 9px -4px #000000;
+        box-shadow: 0px 1px 9px -4px #a79696;
+    }
+
+    .content {
+        margin-top: 50px;
+
+        .description {
+            h3 {
+                font-family: "TheFontBold", Arial, sans-serif;
+                font-size: 16px;
+                span {
+                    font-family: "FuturaBk", Arial, sans-serif;
+                }
+            }
+
+            .tiny {
+                font-family: "FuturaBk", Arial, sans-serif;
+                font-size: 14px;
+                color: #bababa;
+            }
+        }
+    }
+
+    .mount {
+        margin-top: 40px;
+        padding: 0px 80px;
+
+        @media (max-width: 1324px) {
+            padding: 0px;
+        }
+
+        @media (max-width: 768px) {
+            padding: 0px;
+        }
+
+        .mount-image {
+            width: 65%;
+            height: 76%;
+            position: relative;
+            margin-bottom: -20px;
+        }
+
+        .gradient {
+            border-radius: 35px;
+            background: rgb(61, 5, 71);
+            background: rgb(191, 59, 59);
+            background: linear-gradient(
+                0deg,
+                rgba(191, 59, 59, 1) 0%,
+                rgba(122, 16, 59, 1) 47%,
+                rgba(61, 5, 71, 1) 100%
+            );
+            border: none;
+            .gotas {
+                position: absolute;
+                padding-right: -0.2rem;
+                right: 0;
+                top: -37px;
+                width: 30px;
+                transform: rotate(-19deg);
+            }
+
+            h2 {
+                font-size: #{"min(30px, 7vw)"};
+                font-family: "TheFontBold", Arial, sans-serif;
+                color: #fff;
+            }
+            h1 {
+                font-size: #{"min(60px, 10vw)"};
+                font-family: "TheFontBold", Arial, sans-serif;
+                color: #fff;
+            }
+
+            .heart {
+                width: 35px;
+                margin-left: 10px;
+            }
+
+            .button {
+                padding: 0px 20px 20px 20px;
+                .btn-white {
+                    font-size: 40px;
+                    color: #460746;
+                    padding: 30px 20px;
+                    font-family: "TheFontBold", Arial, sans-serif;
+                    -webkit-box-shadow: inset 0px 1px 5px -4px #000000;
+                    box-shadow: inset 0px 3px 5px -4px #000000;
+                    border: solid 3px #efefef !important;
+                    border-radius: 35px;
+                }
+            }
+        }
+
+        .modules {
+            -webkit-box-shadow: inset 0px 1px 5px -4px #000000;
+            box-shadow: inset 0px 1px 5px -4px #000000;
+            margin: 10px;
+            overflow-y: auto;
+            max-height: 75rem;
+
+            .plan-details {
+                .title {
+                    h3 {
+                        font-family: "FuturaBk", Arial, sans-serif;
+                        font-size: 27px;
+                        color: #cfc9c9;
+                    }
+                }
+
+                .price {
+                    h2 {
+                        font-family: "TheFontBold", Arial, sans-serif;
+                        font-size: 31px;
+                        color: #030000;
+                    }
+                    h1 {
+                        font-family: "TheFontBold", Arial, sans-serif;
+                        font-size: 65px;
+                        color: #20bbbd;
+
+                        @media (max-width: 768px) {
+                            font-size: 5rem;
+                        }
+                    }
+                }
+                .line {
+                    border: solid 2px red;
+                    margin: 0px 30px;
+                }
+            }
+            .module-list {
+                .card {
+                    padding: 35px;
+                    margin-bottom: 20px;
+                    .item {
+                        font-family: "TheFontBold", Arial, sans-serif;
+                        font-size: 25px;
+                        color: #000000;
+                        .icon {
+                            margin-right: 25px;
+                        }
+
+                        p {
+                            font-size: 15px;
+                            font-family: "FuturaBk", Arial, sans-serif;
+                        }
+                    }
+                }
+                .active {
+                    background-color: #21bbc0;
+                    border: solid 3px #21bbc0;
+                    color: #fff;
+
+                    .btn {
+                        background-color: #fff0;
+                        color: #fff;
+                    }
+
+                    h4 {
+                        color: #fff;
+                    }
+
+                    h3 {
+                        font-size: 25px;
+                        font-family: "TheFontBold", Arial, sans-serif;
+                        color: #0f6a6d;
+                    }
+                }
+
+                .coming-soon {
+                    h4 {
+                        color: rgb(228, 228, 228);
+                    }
+
+                    h3 {
+                        color: rgb(228, 228, 228);
+                    }
+                }
+
+                .btn {
+                    color: #000000;
+                    -webkit-box-shadow: 0px 1px 8px -4px #000000;
+                    background-color: #eeecec;
+                    box-shadow: 0px 1px 8px -4px #000000;
+                    padding: 5px 25px;
+                    border-radius: 10px;
+                }
+            }
+        }
+
+        .modules::-webkit-scrollbar {
+            width: 5px;
+        }
+
+        .modules::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+        }
+
+        .modules::-webkit-scrollbar-thumb {
+            background-color: #fcfcfc00;
+            outline: 1px solid #fcfcfc00;
+        }
+    }
+
+    .modules-selected {
+        @media (min-width: 900px) {
+            padding: 80px 120px 0px 120px;
+        }
+
+        .extra-actions {
+            margin-top: 150px;
+            margin-bottom: 100px;
+
+            h3 {
+                font-size: 14px;
+                color: #c9c9c9;
+                font-family: "FuturaBk", Arial, sans-serif;
+            }
+
+            .line {
+                border: solid 2px #f1f1f1;
+                margin: 0px 0px 30px 0px;
+            }
+
+            .btn {
+                width: 100% !important;
+                padding: 15px !important;
+                font-size: 18px;
+                border-radius: 35px;
+                font-family: "FuturaBk", Arial, sans-serif;
+                b {
+                    font-size: 18px;
+                    font-family: "TheFontBold", Arial, sans-serif;
+                }
+            }
+
+            .btn-white {
+                -webkit-box-shadow: inset 0px 1px 5px -4px #000000;
+                box-shadow: inset 0px 3px 5px -4px #000000;
+                -webkit-box-shadow: 0px 1px 7px -4px #000000;
+                box-shadow: 0px 1px 7px -4px #000000;
+                border: solid 3px #f9f9f9;
+                b {
+                    color: #fe1846;
+                }
+            }
+
+            .btn-dark {
+                -webkit-box-shadow: inset 0px 1px 5px -4px #000000;
+                box-shadow: inset 0px 3px 5px -4px #000000;
+                -webkit-box-shadow: 0px 1px 7px -4px #000000;
+                box-shadow: 0px 1px 7px -4px #000000;
+                border: solid 3px #000000;
+                background-color: #000000;
+                font-size: 14px;
+                font-family: "TheFontBold", Arial, sans-serif;
+                color: #fff;
+                b {
+                    color: #fff;
+                }
+            }
+        }
+
+        .card {
+            height: 100%;
+            width: 100%;
+            border-radius: 45px;
+            border: solid 3px #fff;
+            background-color: #fff;
+            webkit-box-shadow: 0px 1px 9px -4px #a79696;
+            box-shadow: -5px 4px 9px -4px #a79696;
+        }
+        .selected-modules {
+            background-color: #000000;
+            padding: 10px 40px;
+            border-radius: 35px;
+            font-size: 24px;
+            color: #fff;
+            font-family: "FuturaBk", Arial, sans-serif;
+            b {
+                font-family: "TheFontBold", Arial, sans-serif;
+            }
+        }
+
+        .add-modules {
+            margin-top: 80px;
+            margin-bottom: 60px;
+
+            .item {
+                padding: 10px;
+            }
+            .ticket {
+                padding: 20px 0px;
+
+                .card {
+                    border-radius: 0px 25px 25px 0px;
+                    border: none;
+                    background-color: #eeecec;
+                    -webkit-box-shadow: none;
+                    box-shadow: none;
+                    .card-body {
+                        padding: 5px;
+                    }
+                }
+
+                h3 {
+                    font-family: "TheFontBold", Arial, sans-serif;
+                    font-size: 19px;
+                    color: #8a8a8a;
+                }
+            }
+
+            .card {
+                border: solid 3px #fff;
+                background-color: #fff;
+                webkit-box-shadow: -2px 5px 9px -4px #a79696;
+                box-shadow: -2px 5px 9px -4px #a79696;
+                .card-body {
+                    padding: 0px;
+                }
+            }
+
+            img {
+                width: 50px;
+            }
+            h3 {
+                font-family: "TheFontBold", Arial, sans-serif;
+                font-size: 22px;
+            }
+        }
+    }
+
+    .sell-showcase {
+        margin-top: 60px;
+
+        .card {
+            border-radius: 35px;
+        }
+
+        h4 {
+            font-size: #{"min(17px, 4vw)"};
+            font-family: "TheFontBold", Arial, sans-serif;
+            color: #c9c9c9;
+            font-weight: bold;
+            font-size: 21px;
+        }
+
+        .container-black {
+            .black {
+                background: rgb(82, 13, 94);
+                background: linear-gradient(
+                    31deg,
+                    rgba(82, 13, 94, 1) 15%,
+                    rgba(72, 47, 113, 1) 32%,
+                    rgba(32, 187, 189, 1) 100%
+                );
+                border: solid 5px #2b98aa;
+                -webkit-box-shadow: inset -3px 4px 12px -5px #000000;
+                box-shadow: inset -3px 4px 12px -5px #000000;
+                padding: 25px 45px 0px 45px;
+
+                .slashes {
+                    font-size: 30px;
+                    opacity: 0.5;
+                }
+
+                h4 {
+                    font-size: #{"min(17px, 4vw)"};
+                    font-family: "TheFontBold", Arial, sans-serif;
+                    color: #fff;
+                }
+                .discount {
+                    text-align: left;
+                    font-family: "TheFontBold", Arial, sans-serif;
+                    color: #fff;
+                    h1 {
+                        font-size: #{"min(44px, 12vw)"};
+                    }
+
+                    span {
+                        font-size: #{"min(12px, 4vw)"};
+                        position: relative;
+                        color: #fff;
+                        margin-left: 5px;
+                        text-decoration: none !important;
+                        display: inline-block;
+                    }
+                    b {
+                        font-size: 12px;
+                    }
+                }
+
+                .price {
+                    text-align: left;
+                    font-family: "TheFontBold", Arial, sans-serif;
+                    color: #fff;
+
+                    h1 {
+                        color: #0ad875;
+                        font-size: #{"min(83px, 14vw)"};
+                    }
+
+                    h2 {
+                        font-size: #{"min(20px, 4vw)"};
+                        letter-spacing: 0.5rem;
+                        font-family: "FuturaBk", Arial, sans-serif;
+                    }
+
+                    span {
+                        position: relative;
+                        font-size: 12px;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+
+        .cian {
+            h2 {
+                color: #2a98aa;
+                font-size: 34px;
+                text-align: center;
+                font-family: "TheFontBold", Arial, sans-serif;
+            }
+
+            h1 {
+                color: #2a98aa;
+                font-size: 40px;
+                text-align: center;
+                font-family: "TheFontBold", Arial, sans-serif;
+            }
+
+            span {
+                color: #2a98aa;
+                font-size: 15px;
+                text-align: center;
+                font-family: "FuturaBk", Arial, sans-serif;
+                letter-spacing: 0.4rem;
+            }
+        }
+    }
+    .advertising {
+        font-size: 17px;
+        color: #989898;
+        font-family: "FuturaBk", Arial, sans-serif;
+        margin-bottom: 100px;
+    }
+
+    .start-act-showcase {
+        .btn {
+            padding: 25px 10px;
+            font-size: 15px;
+            font-family: "TheFontBold", Arial, sans-serif;
+            font-weight: bold;
+            width: 100%;
+            -webkit-box-shadow: inset -3px 3px 7px -6px #000000;
+            box-shadow: inset -3px 3px 7px -6px #000000;
+            border: solid 5px #fe043c;
+            border-radius: 25px;
+        }
+    }
+}

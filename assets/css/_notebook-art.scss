@@ -1,0 +1,44 @@
+.notebook-art {
+    margin-top: 50px;
+    .notebook-bg {
+        img {
+            width: 350px;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: inline-block;
+        }
+    }
+
+    .container {
+
+        .title {
+            margin: 20px;
+
+            h1 {
+                font-family: "FuturaBk", Arial, sans-serif;
+                font-size: 27px;
+            }
+    
+            h2 {
+                font-family: "TheFontBold", Arial, sans-serif;
+                font-size: 23px;
+            }
+
+            h3 {
+                font-family: "FuturaBk", Arial, sans-serif;
+                font-size: 22px;
+            }
+        }
+
+        .btn {
+            font-family: "FuturaBk", Arial, sans-serif;
+            font-size: 17px !important;
+            width: 100%;
+
+            b{
+                font-family: "TheFontBold", Arial, sans-serif;
+            }
+        }
+    }
+
+}
