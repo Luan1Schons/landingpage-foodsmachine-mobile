@@ -45,6 +45,10 @@
             font-size: 21px;
             font-family: 'TheFontBold', Arial, sans-serif;
             text-align: center;
+
+            @media (max-width: 320px) {
+                font-size: 14px !important;
+            }
         }
     }
     .step-1 {
@@ -61,6 +65,7 @@
         color: #20BBBD;
         font-size:46px;
         font-family: 'TheFontBold', Arial, sans-serif;
+        
     }
 
     .step-3 {
@@ -78,6 +83,27 @@
         transform: scale(1.2);
         width: 180px;
         float: right;
+
+        @media (max-width: 410px) {
+            width: 180px;
+        }
+
+        @media (max-width: 400px) {
+            width: 135px;
+        }
+
+        @media (max-width: 320px) {
+            width: 100px;
+        }
+
+        @media (max-width: 375px) {
+            width: 145px;
+        }
+
+        @media (max-width: 360px) {
+            width: 135px;
+        }
+
     }
 
     .desc-2 {
@@ -85,6 +111,15 @@
         position: absolute;
         width: 200px;
         float: left;
+
+        @media (max-width: 410px) {
+            width: 200px;
+        }
+        @media (max-width: 320px) {
+            width: 150px;
+        }
+
+
     }
 
     .desc-3 {
@@ -92,5 +127,22 @@
         position: absolute;
         width: 225px;
         float: right;
+
+        @media (max-width: 410px) {
+            width: 225px;
+        }
+
+        @media (max-width: 400px) {
+            width: 180px;
+        }
+
+        @media (max-width: 320px) {
+            width: 145px;
+        }
+
+        @media (max-width: 360px) {
+            width: 180px;
+        }
+
     }
 }

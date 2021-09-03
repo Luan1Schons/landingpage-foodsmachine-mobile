@@ -30,7 +30,6 @@ body .presentation {
   display: inline-block;
   background-image: url("https://luan1schons.github.io/landingpage-foodsmachine/assets/imgs/bg-header.png");
   background-repeat: no-repeat;
-  height: 650px;
 }
 
 body .ml-4 {
@@ -1080,6 +1079,12 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
 }
 
+@media (max-width: 320px) {
+  .steps .card h2 {
+    font-size: 14px !important;
+  }
+}
+
 .steps .step-1 {
   color: #20BBBD;
   font-size: 46px;
@@ -1114,12 +1119,54 @@ body::-webkit-scrollbar-thumb {
   float: right;
 }
 
+@media (max-width: 410px) {
+  .steps .desc-1 {
+    width: 180px;
+  }
+}
+
+@media (max-width: 400px) {
+  .steps .desc-1 {
+    width: 135px;
+  }
+}
+
+@media (max-width: 320px) {
+  .steps .desc-1 {
+    width: 100px;
+  }
+}
+
+@media (max-width: 375px) {
+  .steps .desc-1 {
+    width: 145px;
+  }
+}
+
+@media (max-width: 360px) {
+  .steps .desc-1 {
+    width: 135px;
+  }
+}
+
 .steps .desc-2 {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
   position: absolute;
   width: 200px;
   float: left;
+}
+
+@media (max-width: 410px) {
+  .steps .desc-2 {
+    width: 200px;
+  }
+}
+
+@media (max-width: 320px) {
+  .steps .desc-2 {
+    width: 150px;
+  }
 }
 
 .steps .desc-3 {
@@ -1130,8 +1177,37 @@ body::-webkit-scrollbar-thumb {
   float: right;
 }
 
+@media (max-width: 410px) {
+  .steps .desc-3 {
+    width: 225px;
+  }
+}
+
+@media (max-width: 400px) {
+  .steps .desc-3 {
+    width: 180px;
+  }
+}
+
+@media (max-width: 320px) {
+  .steps .desc-3 {
+    width: 145px;
+  }
+}
+
+@media (max-width: 360px) {
+  .steps .desc-3 {
+    width: 180px;
+  }
+}
+
 .show-app {
   margin-top: 10rem;
+}
+
+.show-app .phone img {
+  width: 100vw;
+  height: 100vw;
 }
 
 .show-app .container .title h3 {

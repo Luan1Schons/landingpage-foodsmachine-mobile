@@ -1,5 +1,12 @@
 .show-app {
     margin-top: 10rem;
+
+    .phone {
+        img {
+            width: 100vw;
+            height: 100vw;
+        }
+    }
     .container {
         .title {
             h3 {
