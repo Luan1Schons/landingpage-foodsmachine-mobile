@@ -340,6 +340,7 @@ body::-webkit-scrollbar-thumb {
   -webkit-box-shadow: 0px 1px 7px -4px #000000;
   box-shadow: 0px 1px 7px -4px #000000;
   border: solid 3px #f9f9f9;
+  font-size: 14px;
 }
 
 .register .modal-dialog .modal-content .modal-body .modules-selected .add-modules .extra-actions .btn-white b {
