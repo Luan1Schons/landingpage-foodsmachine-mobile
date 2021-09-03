@@ -1298,8 +1298,8 @@ body::-webkit-scrollbar-thumb {
   font-family: "TheFontBold", Arial, sans-serif;
 }
 
-.functionalities .benefits {
-  height: 100%;
+.functionalities .benefits .carousel-functionalities {
+  height: 550px;
 }
 
 .functionalities .benefits .card {
@@ -1344,7 +1344,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 .functionalities .benefits .item {
-  padding: 40px 0px;
   height: 100%;
   width: 100%;
 }

@@ -1,7 +1,6 @@
 .functionalities {
     margin-top: 150px;
 
-
     .btn {
         font-size: 22px;
         border-radius: 35px;
@@ -51,7 +50,9 @@
     }
 
     .benefits {
-        height: 100%;
+        .carousel-functionalities {
+            height: 550px;
+        }
 
         .card {
             -webkit-box-shadow: -9px 9px 10px -5px #d0d0d0;
@@ -95,7 +96,6 @@
             }
         }
         .item {
-            padding: 40px 0px;
             height: 100%;
             width: 100%;
         }

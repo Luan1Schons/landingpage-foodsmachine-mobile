@@ -25,6 +25,21 @@ $('.clients-carousel').owlCarousel({
   paginationSpeed: 400,
 })
 
+
+$('.carousel-functionalities').owlCarousel({
+  loop: false,
+  center: true,
+  margin: 10,
+  nav: false,
+  items: 1,
+  autoplay: false,
+  autoplayTimeout: 3000,
+  singleItem: true,
+  slideSpeed: 300,
+  paginationSpeed: 400,
+})
+
+
 $(document).ready(function () {
 
   let clickFunctionalities = 0;
