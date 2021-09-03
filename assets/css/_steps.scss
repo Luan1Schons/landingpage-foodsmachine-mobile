@@ -2,7 +2,7 @@
     position: relative;
     background-image: url(/assets/imgs/svgs/step-1.svg);
     background-repeat: no-repeat;
-    background-position: 90px 200px;
+    background-position: 90px 180px;
     .people-left {
         width: 120px;
         display: block;
@@ -77,17 +77,20 @@
         position: absolute;
         transform: scale(1.2);
         width: 180px;
+        float: right;
     }
 
     .desc-2 {
         transform: scale(1.2);
         position: absolute;
         width: 200px;
+        float: left;
     }
 
     .desc-3 {
         transform: scale(1.2);
         position: absolute;
         width: 225px;
+        float: right;
     }
 }

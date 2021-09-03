@@ -965,8 +965,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .header-card .info-apps img {
-  height: 29px;
-  width: 80px;
+  height: min(29px, 6vw);
 }
 
 .youtube-video .youtube-presentation {
@@ -1035,7 +1034,7 @@ body::-webkit-scrollbar-thumb {
   position: relative;
   background-image: url(/assets/imgs/svgs/step-1.svg);
   background-repeat: no-repeat;
-  background-position: 90px 200px;
+  background-position: 90px 180px;
 }
 
 .steps .people-left {
@@ -1112,6 +1111,7 @@ body::-webkit-scrollbar-thumb {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
   width: 180px;
+  float: right;
 }
 
 .steps .desc-2 {
@@ -1119,6 +1119,7 @@ body::-webkit-scrollbar-thumb {
           transform: scale(1.2);
   position: absolute;
   width: 200px;
+  float: left;
 }
 
 .steps .desc-3 {
@@ -1126,6 +1127,7 @@ body::-webkit-scrollbar-thumb {
           transform: scale(1.2);
   position: absolute;
   width: 225px;
+  float: right;
 }
 
 .show-app {
@@ -1805,24 +1807,24 @@ body::-webkit-scrollbar-thumb {
 
 .mount-your-plan .sell-showcase .cian h2 {
   color: #2a98aa;
-  font-size: 34px;
+  font-size: 30px;
   text-align: center;
   font-family: "TheFontBold", Arial, sans-serif;
 }
 
 .mount-your-plan .sell-showcase .cian h1 {
   color: #2a98aa;
-  font-size: 40px;
+  font-size: 42px;
   text-align: center;
   font-family: "TheFontBold", Arial, sans-serif;
 }
 
 .mount-your-plan .sell-showcase .cian span {
   color: #2a98aa;
-  font-size: 15px;
+  font-size: 19px;
   text-align: center;
   font-family: "FuturaBk", Arial, sans-serif;
-  letter-spacing: 0.4rem;
+  letter-spacing: 0.2rem;
 }
 
 .mount-your-plan .advertising {

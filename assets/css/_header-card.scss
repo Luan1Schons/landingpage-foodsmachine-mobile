@@ -11,7 +11,7 @@
 
     h1 {
         color: #fff;
-        font-size: #{"min(56px, 11vw)"};;
+        font-size: #{"min(56px, 11vw)"};
     }
 
     .card {
@@ -35,8 +35,7 @@
         margin-top: 15px;
 
         img {
-            height: 29px;
-            width: 80px;
+            height: #{"min(29px, 6vw)"};
         }
     }
 }
