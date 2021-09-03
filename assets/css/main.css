@@ -669,12 +669,12 @@ body::-webkit-scrollbar-thumb {
   color: #fff;
 }
 
-.btn-cian-register {
-  background: #20BBBD;
-  border: solid 3px #20BBBD;
+.btn-red-register {
+  background: #FE043C;
+  border: solid 3px #FE043C;
   border-radius: 20px;
   color: #fff;
-  padding: 20px 55px;
+  padding: 20px 30px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   display: inline-block;
@@ -682,19 +682,19 @@ body::-webkit-scrollbar-thumb {
   line-height: normal;
   -webkit-box-shadow: inset 0px 1px 5px -4px #000000;
   box-shadow: inset 0px 3px 5px -4px #000000;
-  font-size: 23px;
-  font-family: "FuturaBk", Arial, sans-serif;
+  font-size: 12px;
+  font-family: "TheFontBold", Arial, sans-serif;
 }
 
-.btn-cian-register:hover {
+.btn-red-register:hover {
   color: #fff;
   -webkit-transform: translateY(-7px);
           transform: translateY(-7px);
 }
 
-.btn-cian-register b {
+.btn-red-register b {
   font-family: "TheFontBold", Arial, sans-serif;
-  font-size: 28px;
+  font-size: 13px;
 }
 
 .btn-cian {
