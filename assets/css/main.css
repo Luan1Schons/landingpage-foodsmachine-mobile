@@ -94,7 +94,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 .login-md .modal-dialog {
-  border-radius: none;
   margin: 0px;
   padding: 0px;
   height: 100%;
@@ -159,16 +158,31 @@ body::-webkit-scrollbar-thumb {
   box-shadow: -5px 4px 9px -4px #00000029;
 }
 
+.login-md .modal-dialog .content .container {
+  margin: 50% 0px;
+}
+
 .login-md .modal-dialog .content .card {
-  background: rgba(0, 0, 0, 0);
-  background-image: url(https://luan1schons.github.io/landingpage-foodsmachine/assets/imgs/bg-login.png) !important;
-  border-radius: none;
+  border-radius: 35px;
   width: 100%;
 }
 
+.login-md .modal-dialog .content .card label {
+  font-size: 15px;
+}
+
+.login-md .modal-dialog .content .card .btn-login {
+  bottom: -25px;
+  position: absolute;
+}
+
 .login-md .modal-dialog .content .card-body {
-  padding: 0px;
-  height: 930px;
+  padding: 20px;
+}
+
+.login-md .login-bg {
+  background: rgba(0, 0, 0, 0);
+  background-image: url(https://luan1schons.github.io/landingpage-foodsmachine/assets/imgs/bg-login.png) !important;
 }
 
 .register {

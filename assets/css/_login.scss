@@ -1,6 +1,5 @@
 .login-md {
     .modal-dialog {
-        border-radius: none;
         margin: 0px;
         padding: 0px;
         height: 100%;
@@ -63,16 +62,30 @@
         }
 
         .content {
+
+            .container {
+                margin: 50% 0px;
+            }
             .card {
-                background: rgba(0, 0, 0, 0);
-                background-image: url(https://luan1schons.github.io/landingpage-foodsmachine/assets/imgs/bg-login.png) !important;
-                border-radius: none;
-                width: 100%
+                border-radius: 35px;
+                width: 100%;
+
+                label{
+                        font-size: 15px;
+                }
+
+                .btn-login {
+                    bottom: -25px;
+                    position: absolute;
+                }
             }
             .card-body {
-                padding: 0px;
-                height: 930px;
+                padding: 20px;
             }
         }
+    }
+    .login-bg {
+        background: rgba(0, 0, 0, 0);
+        background-image: url(https://luan1schons.github.io/landingpage-foodsmachine/assets/imgs/bg-login.png) !important;
     }
 }
