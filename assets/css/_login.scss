@@ -64,7 +64,15 @@
         .content {
 
             .container {
-                margin: 50% 0px;
+                margin: 20% 0px;
+
+                .logo{
+                    display: block;
+                    text-align: center;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 260px;
+                }
             }
             .card {
                 border-radius: 35px;

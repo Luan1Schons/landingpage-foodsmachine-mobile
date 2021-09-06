@@ -159,7 +159,15 @@ body::-webkit-scrollbar-thumb {
 }
 
 .login-md .modal-dialog .content .container {
-  margin: 50% 0px;
+  margin: 20% 0px;
+}
+
+.login-md .modal-dialog .content .container .logo {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 260px;
 }
 
 .login-md .modal-dialog .content .card {
