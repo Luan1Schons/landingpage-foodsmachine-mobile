@@ -5,8 +5,6 @@
         padding: 0px;
         height: 100%;
         .modal-content {
-            background: rgba(0, 0, 0, 0);
-            background-image: url(https://luan1schons.github.io/landingpage-foodsmachine/assets/imgs/bg-login.png);
             .modal-header {
                 z-index: 9999;
                 display: flex;
@@ -23,6 +21,10 @@
                     border-radius: 45px;
                     opacity: initial;
                 }
+            }
+
+            .modal-body {
+                padding: 0px;
             }
 
             .form {
@@ -62,11 +64,13 @@
 
         .content {
             .card {
-                border-radius: 45px;
-                width: 94%
+                background: rgba(0, 0, 0, 0);
+                background-image: url(https://luan1schons.github.io/landingpage-foodsmachine/assets/imgs/bg-login.png) !important;
+                border-radius: none;
+                width: 100%
             }
             .card-body {
-                padding: 160px 110px;
+                padding: 0px;
                 height: 930px;
             }
         }

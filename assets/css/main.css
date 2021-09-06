@@ -100,11 +100,6 @@ body::-webkit-scrollbar-thumb {
   height: 100%;
 }
 
-.login-md .modal-dialog .modal-content {
-  background: rgba(0, 0, 0, 0);
-  background-image: url(https://luan1schons.github.io/landingpage-foodsmachine/assets/imgs/bg-login.png);
-}
-
 .login-md .modal-dialog .modal-content .modal-header {
   z-index: 9999;
   display: -webkit-box;
@@ -129,6 +124,10 @@ body::-webkit-scrollbar-thumb {
   padding: 20px;
   border-radius: 45px;
   opacity: initial;
+}
+
+.login-md .modal-dialog .modal-content .modal-body {
+  padding: 0px;
 }
 
 .login-md .modal-dialog .modal-content .form {
@@ -161,12 +160,14 @@ body::-webkit-scrollbar-thumb {
 }
 
 .login-md .modal-dialog .content .card {
-  border-radius: 45px;
-  width: 94%;
+  background: rgba(0, 0, 0, 0);
+  background-image: url(https://luan1schons.github.io/landingpage-foodsmachine/assets/imgs/bg-login.png) !important;
+  border-radius: none;
+  width: 100%;
 }
 
 .login-md .modal-dialog .content .card-body {
-  padding: 160px 110px;
+  padding: 0px;
   height: 930px;
 }
 
@@ -1124,12 +1125,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 .show-app {
-  margin-top: 10rem;
+  margin-top: 50px;
 }
 
 .show-app .phone img {
   width: 100vw;
-  height: 100vw;
+  height: 620px;
 }
 
 .show-app .container .title h3 {
@@ -1170,7 +1171,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .functionalities {
-  margin-top: 150px;
+  margin-top: 70px;
 }
 
 .functionalities .btn {
@@ -1283,7 +1284,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .mount-your-plan {
-  margin-top: 150px;
+  margin-top: 70px;
 }
 
 .mount-your-plan .card-body {
@@ -1295,7 +1296,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .mount-your-plan .brands {
-  margin-bottom: -7rem;
+  margin-bottom: -6rem;
 }
 
 .mount-your-plan .brands img {
@@ -1825,7 +1826,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .mount-your-plan .advertising {
-  font-size: min(17px, 3.2vw);
+  font-size: min(17px, 4.8vw);
   color: #989898;
   font-family: "FuturaBk", Arial, sans-serif;
   margin-bottom: 100px;
@@ -1899,7 +1900,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .notebook-art {
-  margin-top: 50px;
+  margin-top: 150px;
 }
 
 .notebook-art .notebook-bg img {
@@ -1945,6 +1946,7 @@ body::-webkit-scrollbar-thumb {
 
 .clients h3 {
   font-size: 19px;
+  font-weight: bold;
   font-family: "FuturaBk", Arial, sans-serif;
   color: #e6e7e8;
 }
@@ -2101,6 +2103,10 @@ body::-webkit-scrollbar-thumb {
 
 .main-questions .title b {
   font-family: "TheFontBold", Arial, sans-serif;
+}
+
+.main-questions .title h1 {
+  font-size: 17px;
 }
 
 .main-questions .card {
@@ -2404,6 +2410,8 @@ body::-webkit-scrollbar-thumb {
 
 .footer .content .gray {
   color: #A2A2A2;
+  font-size: 24px;
+  line-height: 0px;
 }
 
 .footer .content p {
@@ -2450,7 +2458,7 @@ body::-webkit-scrollbar-thumb {
 
 .footer .footer-details .small {
   font-family: "FuturaBk", Arial, sans-serif;
-  font-size: 25px;
+  font-size: 19px;
 }
 
 .footer .footer-details .small-hours {
