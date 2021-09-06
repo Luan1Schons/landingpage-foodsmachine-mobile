@@ -2162,7 +2162,7 @@ body::-webkit-scrollbar-thumb {
 
 .add-module-modal .modal {
   position: fixed;
-  top: 5% !important;
+  top: 0% !important;
   left: 0;
   z-index: 1060;
   display: none;
@@ -2175,6 +2175,11 @@ body::-webkit-scrollbar-thumb {
 
 .add-module-modal .modal-xl {
   max-width: 640px;
+}
+
+.add-module-modal .modal-dialog {
+  padding: 0px;
+  margin: 0px;
 }
 
 .add-module-modal .modal-dialog .modal-content {
@@ -2213,6 +2218,11 @@ body::-webkit-scrollbar-thumb {
   box-shadow: -1px 6px 10px 1px #00000029;
 }
 
+.add-module-modal .modal-dialog .modal-content .modal-body {
+  padding: 0px;
+  margin: 0px;
+}
+
 .add-module-modal .modal-dialog .modal-content .modal-body .modal-title {
   padding: 0px;
   font-size: 20px;
@@ -2224,9 +2234,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .add-module-modal .modal-dialog .modal-content .modal-body .gradient {
-  margin-top: -20px;
   height: 53rem;
-  border-radius: 40px;
+  border-radius: 0px;
   background: #3d0547;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(32%, #3d0547), color-stop(53%, #4c0844), color-stop(72%, #6a0d3f), color-stop(86%, #961437), to(#f62524));
   background: linear-gradient(180deg, #3d0547 32%, #4c0844 53%, #6a0d3f 72%, #961437 86%, #f62524 100%);
@@ -2324,13 +2333,12 @@ body::-webkit-scrollbar-thumb {
   border-radius: 35px;
   -webkit-box-shadow: 0px 1px 9px -4px #000000;
   box-shadow: 0px 1px 9px -4px #a79696;
-  padding: 25px;
+  padding: 20px 20px;
   margin-bottom: 20px;
-  height: 160px;
 }
 
 .add-module-modal .modal-dialog .modal-content .modal-body .modules .module-list .card img {
-  width: 50px;
+  width: 30px;
 }
 
 .add-module-modal .modal-dialog .modal-content .modal-body .modules .module-list .card .item {
@@ -2342,6 +2350,22 @@ body::-webkit-scrollbar-thumb {
 .add-module-modal .modal-dialog .modal-content .modal-body .modules .module-list .card .item p {
   font-size: 15px;
   font-family: "FuturaBk", Arial, sans-serif;
+}
+
+.add-module-modal .modal-dialog .modal-content .modal-body .modules .module-list .card .card-body {
+  padding: 0px;
+}
+
+.add-module-modal .modal-dialog .modal-content .modal-body .modules .module-list .card h4 {
+  color: #000000;
+  font-size: 15px;
+  white-space: normal;
+}
+
+.add-module-modal .modal-dialog .modal-content .modal-body .modules .module-list .card h5 {
+  color: #000000;
+  font-size: 12px;
+  white-space: normal;
 }
 
 .add-module-modal .modal-dialog .modal-content .modal-body .modules .module-list .active {
@@ -2358,11 +2382,12 @@ body::-webkit-scrollbar-thumb {
 
 .add-module-modal .modal-dialog .modal-content .modal-body .modules .module-list .active h4 {
   color: #fff;
+  font-size: 15px;
   white-space: normal;
 }
 
 .add-module-modal .modal-dialog .modal-content .modal-body .modules .module-list .active h3 {
-  font-size: 18px;
+  font-size: 15px;
   font-family: "TheFontBold", Arial, sans-serif;
   color: #0f6a6d;
 }

@@ -2,7 +2,7 @@
     z-index: 9999;
     .modal {
         position: fixed;
-        top: 5% !important;
+        top: 0% !important;
         left: 0;
         z-index: 1060;
         display: none;
@@ -17,6 +17,8 @@
         max-width: 640px;
     }
     .modal-dialog {
+        padding: 0px;
+        margin: 0px;
         .modal-content {
             background-color: #f0ffff00;
             border: none;
@@ -45,6 +47,8 @@
             }
 
             .modal-body {
+                padding: 0px;
+                margin: 0px;
                 .modal-title {
                     padding: 0px;
                     font-size: 20px;
@@ -56,9 +60,8 @@
                     
                 }
                 .gradient {
-                    margin-top: -20px;
                     height: 53rem;
-                    border-radius: 40px;
+                    border-radius: 0px;
                     background: rgb(61, 5, 71);
                     background: linear-gradient(
                         180deg,
@@ -150,20 +153,17 @@
 
                     .module-list {
                         .card {
-
                             position: relative;
                             background-color: #FCFCFC;
                             border: solid 3px #fff;
                             border-radius: 35px;
                             -webkit-box-shadow: 0px 1px 9px -4px #000000;
                             box-shadow: 0px 1px 9px -4px #a79696;
-                    
-                            padding: 25px;
+                            padding: 20px 20px;
                             margin-bottom: 20px;
-                            height: 160px;
 
                             img {
-                                width: 50px;
+                                width: 30px;
                             }
                             .item {
                                 font-family: "TheFontBold", Arial, sans-serif;
@@ -175,6 +175,23 @@
                                     font-family: "FuturaBk", Arial, sans-serif;
                                 }
                             }
+                            .card-body {
+                                padding: 0px;
+                            }
+
+                            h4 {
+                                color: #000000;
+                                font-size: 15px;
+                                white-space: normal;
+                            }
+
+                            
+                            h5 {
+                                color: #000000;
+                                font-size: 12px;
+                                white-space: normal;
+                            }
+
                         }
                         .active {
                             background-color: #21bbc0;
@@ -189,11 +206,12 @@
 
                             h4 {
                                 color: #fff;
+                                font-size: 15px;
                                 white-space: normal;
                             }
 
                             h3 {
-                                font-size: 18px;
+                                font-size: 15px;
                                 font-family: "TheFontBold", Arial, sans-serif;
                                 color: #0f6a6d;
                             }
