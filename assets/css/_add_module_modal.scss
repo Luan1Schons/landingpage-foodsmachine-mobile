@@ -34,8 +34,8 @@
 
                 .btn-close {
                     position: absolute;
-                    margin-top: 30px;
-                    right: 0;
+                    top: 12px;
+                    left: 10px;
                     z-index: 9999;
                     background-color: white;
                     padding: 30px;
@@ -153,6 +153,7 @@
 
                     .module-list {
                         .card {
+                            border: none;
                             position: relative;
                             background-color: #FCFCFC;
                             border: solid 3px #fff;

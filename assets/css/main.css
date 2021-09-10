@@ -96,7 +96,10 @@ body::-webkit-scrollbar-thumb {
 .login-md .modal-dialog {
   margin: 0px;
   padding: 0px;
-  height: 100%;
+}
+
+.login-md .modal-dialog .modal-content {
+  border: none;
 }
 
 .login-md .modal-dialog .modal-content .modal-header {
@@ -115,7 +118,6 @@ body::-webkit-scrollbar-thumb {
   border-bottom: none;
   border-top-left-radius: calc(0.3rem - 1px);
   border-top-right-radius: calc(0.3rem - 1px);
-  margin: 0px;
 }
 
 .login-md .modal-dialog .modal-content .modal-header .btn-close {
@@ -123,10 +125,6 @@ body::-webkit-scrollbar-thumb {
   padding: 20px;
   border-radius: 45px;
   opacity: initial;
-}
-
-.login-md .modal-dialog .modal-content .modal-body {
-  padding: 0px;
 }
 
 .login-md .modal-dialog .modal-content .form {
@@ -158,16 +156,12 @@ body::-webkit-scrollbar-thumb {
   box-shadow: -5px 4px 9px -4px #00000029;
 }
 
-.login-md .modal-dialog .content .container {
-  margin: 20% 0px;
+.login-md .modal-dialog .content {
+  height: 100%;
 }
 
-.login-md .modal-dialog .content .container .logo {
-  display: block;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 260px;
+.login-md .modal-dialog .content .container {
+  margin: 20% 0px;
 }
 
 .login-md .modal-dialog .content .card {
@@ -191,6 +185,15 @@ body::-webkit-scrollbar-thumb {
 .login-md .login-bg {
   background: rgba(0, 0, 0, 0);
   background-image: url(https://luan1schons.github.io/landingpage-foodsmachine-mobile/assets/imgs/bg-login.png) !important;
+}
+
+.login-md .login-bg .logo {
+  margin-top: 70px;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 260px;
 }
 
 .register {
@@ -2207,8 +2210,8 @@ body::-webkit-scrollbar-thumb {
 
 .add-module-modal .modal-dialog .modal-content .modal-header .btn-close {
   position: absolute;
-  margin-top: 30px;
-  right: 0;
+  top: 12px;
+  left: 10px;
   z-index: 9999;
   background-color: white;
   padding: 30px;
@@ -2327,6 +2330,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .add-module-modal .modal-dialog .modal-content .modal-body .modules .module-list .card {
+  border: none;
   position: relative;
   background-color: #FCFCFC;
   border: solid 3px #fff;

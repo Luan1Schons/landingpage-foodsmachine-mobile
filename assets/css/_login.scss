@@ -2,8 +2,8 @@
     .modal-dialog {
         margin: 0px;
         padding: 0px;
-        height: 100%;
         .modal-content {
+            border: none;
             .modal-header {
                 z-index: 9999;
                 display: flex;
@@ -13,17 +13,12 @@
                 border-bottom: none;
                 border-top-left-radius: calc(0.3rem - 1px);
                 border-top-right-radius: calc(0.3rem - 1px);
-                margin: 0px;
                 .btn-close {
                     background-color: white;
                     padding: 20px;
                     border-radius: 45px;
                     opacity: initial;
                 }
-            }
-
-            .modal-body {
-                padding: 0px;
             }
 
             .form {
@@ -62,17 +57,9 @@
         }
 
         .content {
-
+            height: 100%;
             .container {
                 margin: 20% 0px;
-
-                .logo{
-                    display: block;
-                    text-align: center;
-                    margin-left: auto;
-                    margin-right: auto;
-                    width: 260px;
-                }
             }
             .card {
                 border-radius: 35px;
@@ -95,5 +82,13 @@
     .login-bg {
         background: rgba(0, 0, 0, 0);
         background-image: url(https://luan1schons.github.io/landingpage-foodsmachine-mobile/assets/imgs/bg-login.png) !important;
+        .logo{
+            margin-top: 70px;
+            display: block;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            width: 260px;
+        }
     }
 }
